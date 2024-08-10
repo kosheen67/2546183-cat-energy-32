@@ -10,8 +10,8 @@
 </head>
 
 <body class="page__body">
-  <header class="catalog-header">
-    <a class="header__logo" href="#">
+  <header class="catalog-header header-logo">
+    <a class="header-logo" href="#">
       <img class="logo-image" src="/source/images/" width="33" height="38" alt="Логотип сайта">
       <img class="logo-text" src="/source/images/" width="128" height="24" alt="Надпись Cat energy">
     </a>
@@ -20,11 +20,11 @@
         <span class="visually-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item main-nav--current">
+        <ul class="main-nav__list list-reset">
+          <li class="main-nav__item">
             <a class="main-nav__item-link" href="#">Главная</a>
           </li>
-          <li class="main-nav__item">
+          <li class="main-nav__item main-nav__item--current">
             <a class="main-nav__item-link" href="#">Каталог продукции</a>
           </li>
           <li class="main-nav__item">
@@ -33,15 +33,15 @@
         </ul>
       </div>
     </nav>
-    <h1 class="catalog-header__heading">Каталог продукции</h1>
   </header>
 
   <main class="main-container">
+    <h1 class="catalog-header__heading">Каталог продукции</h1>
 
     <!-- Каталог продукции -->
     <section class="catalog">
       <h2 class="visually-hidden">Продукция в карточках</h2>
-      <ul class="catalog__list catalog-list">
+      <ul class="catalog__list catalog-list list-reset">
 
         <!-- Продукт 1 -->
         <li class="catalog-list__card card">
@@ -316,7 +316,7 @@
     <section class="extra-goods">
       <h2 class="extra-goods__header">Дополнительные товары</h2>
 
-      <ul class="extra-goods__list extra-goods-list">
+      <ul class="extra-goods__list extra-goods-list list-reset">
 
         <li class="extra-goods-list__item extra-goods-item">
           <h3 class="extra-goods-item__header">Сахарозаменитель</h3>
@@ -395,7 +395,7 @@
   <!-- Подвал -->
   <footer class="footer">
     <img class="logo-text" src="/source/images/" width="128" height="24" alt="Надпись Cat energy">
-    <ul class="footer__socials-list socials-list">
+    <ul class="footer__socials-list socials-list list-reset">
       <li class="socials-list__socials-item socials-item">
         <a class="socials-item" href="#"><span class="visually-hidden">Переход на сайт Вконтакте</span>
           <svg width="20" height="20"></svg>
