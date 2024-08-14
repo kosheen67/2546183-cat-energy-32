@@ -1,0 +1,20 @@
+{
+	"githubIssues.queries": [
+
+		{
+			"label": "Мои вопросы",
+			"query": "is:open assignee:${user} repo:${owner}/${repository}",
+			"groupBy": [
+				"milestone"
+			]
+		},
+		{
+			"label": "Созданные проблемы",
+			"query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+		},
+		{
+			"label": "Недавние проблемы",
+			"query": "state:open repo:${owner}/${repository} sort:updated-desc"
+		}
+	]
+}
