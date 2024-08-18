@@ -1,9 +1,14 @@
 .example {
-
+  background-color: #eaeaea;
+;
 }
 
 .example__header {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
 }
 
 .example__content {
@@ -19,7 +24,11 @@
 }
 
 .example__cost {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
 }
 
 .example__slider-before {

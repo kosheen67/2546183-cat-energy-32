@@ -19,11 +19,19 @@
 }
 
 .card__content-title {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
 }
 
 .card__list {
-
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #222222;
 }
 
 .card__list-term {
@@ -43,13 +51,26 @@
 }
 
 .card__more-products-header {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
 }
 
 .card__more-products-content {
-
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
 }
 
 .card__more-products-link {
-
+  background-color: $basic-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
 }

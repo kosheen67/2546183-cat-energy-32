@@ -3,7 +3,11 @@
 }
 
 .extra-goods__header {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .extra-goods__list {
@@ -15,11 +19,19 @@
 }
 
 .extra-goods__title {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
 }
 
 .extra-goods__main {
-
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
 }
 
 .extra-goods__term {
@@ -39,5 +51,10 @@
 }
 
 .extra-goods__content {
-
+  background-color: $basic-green;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }

@@ -1,13 +1,17 @@
 .programs-list {
-
-}
+ }
 
 .programs-list__item {
-
+  background-color: $basic-grey;
 }
 
 .programs-list__header {
-
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  text-transform: uppercase;
 }
 
 .programs-list__header--loosing-weight {
@@ -19,7 +23,12 @@
 }
 
 .programs-list__link {
-
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 .programs-list__header--gaining-weight {
