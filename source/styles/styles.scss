@@ -1,7 +1,32 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/page.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/header-logo.scss";
+@import "./blocks/logo-image.scss";
+@import "./blocks/logo-text.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/visually-hidden.scss";
+@import "./blocks/main-container.scss";
+// Программы
+@import "./blocks/programs.scss";
+@import "./blocks/programs-wrapper.scss";
+// Характеристики
+@import "./blocks/features.scss";
+@import "./blocks/list-reset.scss";
+@import "./blocks/content-basic.scss";
+// Пример
+@import "./blocks/example.scss";
+@import "./blocks/definition-list.scss";
+// Сотрудничество
+@import "./blocks/location.scss";
+@import "./blocks/content-wrapper.scss";
+//Подвал
+@import "./blocks/footer.scss";
+@import "./blocks/socials-list.scss";
+@import "./blocks/developer.scss";
