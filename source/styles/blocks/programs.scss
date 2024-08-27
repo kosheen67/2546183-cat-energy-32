@@ -1,0 +1,35 @@
+.programs {
+  background-color: transparent;
+}
+
+.programs__header {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.programs__slogan {
+  background-color: $basic-green;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.programs__image {
+  background-color: transparent;
+}
+
+.programs__link {
+  background-color: $basic-green;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
