@@ -4,6 +4,12 @@
 
 .programs-list__item {
   background-color: $basic-grey;
+  background-image: url("../../icons/stack.svg#cat-loosing-weight-mobile");
+}
+
+.programs-list__item:nth-child(2) {
+  background-color: $basic-grey;
+  background-image: url("../../icons/stack.svg#cat-gaining-weight-mobile");
 }
 
 .programs-list__header {
