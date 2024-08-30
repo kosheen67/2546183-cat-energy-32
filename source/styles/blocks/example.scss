@@ -34,6 +34,17 @@
   background-color: transparent;
 }
 
+
 .example__slider-after {
   background-color: transparent;
+}
+
+.example__slider-control:hover {
+  stroke: #68b738;
+  fill: #68b738;
+}
+
+.example__slider-control:active {
+  fill: rgba(94, 170, 47, 0.6);
+  stroke: rgba(94, 170, 47, 0.6);
 }

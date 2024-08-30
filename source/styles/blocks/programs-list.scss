@@ -38,6 +38,19 @@
   text-transform: uppercase;
 }
 
+.programs-list__link:active {
+  color: rgba(0, 0, 0, 0.25);
+}
+
 .programs-list__header--gaining-weight {
   background-color: transparent;
+}
+
+
+.programs-list__arrow:hover {
+  width: 32px;
+}
+
+.programs-list__arrow:active {
+  fill: rgba(0, 0, 0, 0.25);
 }
