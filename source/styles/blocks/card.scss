@@ -1,21 +1,26 @@
 .card {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__wrapper {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__wrapper-link {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__wrapper-image {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__content {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__content-title {
@@ -35,15 +40,18 @@
 }
 
 .card__list-term {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__list-definiton {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__more-products {
-  background-color: transparent;
+  background-color: #ffffff;
+
 }
 
 .card__more-products-wrapper {
@@ -56,6 +64,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #111111;
+  text-transform: uppercase;
 }
 
 .card__more-products-content {
@@ -73,4 +82,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #444444;
+  text-transform: uppercase;
+  text-decoration: none;
 }
