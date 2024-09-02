@@ -1,31 +1,39 @@
 .features-list {
-  background-color: #ffffff;
-
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 0;
 }
 
 .features-list__item {
   background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 60px 60px;
+  background-size: 60px 65px;
+  margin: 0;
+  background-position: 0 -7px;
+  min-height: 60px;
 }
 
 .features-list__item--nutrition {
-  background-image: url("../../icons/stack.svg#icon-nutrition-mobile");
+  background-image: url("../../icons/icon-nutrition-mobile.svg");
 }
 
 .features-list__item--form {
-  background-image: url("../../icons/stack.svg#icon-form-mobile");
+  background-image: url("../../icons/icon-form-mobile.svg");
 }
 
 .features-list__item--meal {
-  background-image: url("../../icons/stack.svg#icon-meal-mobile");
+  background-image: url("../../icons/icon-meal-mobile.svg");
 }
 
 .features-list__item--time {
-  background-image: url("../../icons/stack.svg#icon-time-mobile");
+  background-image: url("../../icons/icon-time-mobile.svg");
 }
+
 
 .features-list__content {
   background-color: #ffffff;
-
+  margin-left: 80px;
+   margin-bottom: 0;
 }
