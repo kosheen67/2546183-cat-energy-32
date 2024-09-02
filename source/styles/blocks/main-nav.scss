@@ -1,23 +1,18 @@
 .main-nav {
-
 }
 .main-nav__wrapper {
-
 }
 
 .main-nav__list {
-
+display: none;
+flex-direction: column;
+align-items: center;
+padding: 0 20px;
+margin: 0;
 
 }
-
-.main-nav__item {
-  background-color: #ffffff;
-
-}
-
 .main-nav__item--current {
   background-color: #ffffff;
-
 }
 
 .main-nav__item-link {
@@ -28,4 +23,14 @@
   line-height: 20px;
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
+  padding: 22px 0 24px;
 }
+
+.main-nav__item-line {
+  width: 320px;
+  height: 1px;
+  background-color: #e6e6e6;
+
+}
+

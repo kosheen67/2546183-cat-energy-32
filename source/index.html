@@ -17,33 +17,46 @@
 <body class="page__body">
 
   <!-- Заголовок -->
+
   <header class="main-header header-logo">
-    <a class="header-logo" href="#">
-      <picture>
-        <source media="(min-width:1440px)" srcset="images/logo-desktop.svg" width="70" height="59" type="image/svg+xml">
-        <source media="(min-width:768px)" srcset="images/logo-tablet.svg" width="60" height="50" type="image/svg+xml">
-        <img class="logo-image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип сайта">
-      </picture>
-      <picture>
-        <source media="(min-width:1440px)" srcset="images/logotext-top-desktop.svg" width="118" height="21" type="image/svg+xml">
-        <img class="logo-text" src="images/logotext-top-mobile-tablet.svg" width="101" height="18" alt="Надпись Cat energy">
-      </picture>
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Иконка для открытия меню
-        <span class="visually-hidden">Открыть меню</span>
+
+    <div class="header-logo__wrapper">
+      <a class="header-logo__link" href="#">
+        <picture>
+          <source media="(min-width:1440px)" srcset="images/logo-desktop.svg" width="70" height="59" type="image/svg+xml">
+          <source media="(min-width:768px)" srcset="images/logo-tablet.svg" width="60" height="50" type="image/svg+xml">
+          <img class="logo-image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип сайта">
+        </picture>
+      </a>
+      <a class="header-logo__link" href="#">
+        <picture>
+          <source media="(min-width:1440px)" srcset="images/logotext-top-desktop.svg" width="118" height="21" type="image/svg+xml">
+          <img class="logo-text" src="images/logotext-top-mobile-tablet.svg" width="101" height="18" alt="Надпись Cat energy">
+        </picture>
+      </a>
+      <button class="burger" type="button">
+        <span class="burger__line">Меню</span>
       </button>
+      <div class="burger__underline"></div>
+    </div>
+
+    <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list list-reset">
           <li class="main-nav__item main-nav__item--current">
             <a class="main-nav__item-link" href="#">Главная</a>
           </li>
+          <div class="main-nav__item-line"></div>
           <li class="main-nav__item">
             <a class="main-nav__item-link" href="catalog.html">Каталог продукции</a>
           </li>
+          <div class="main-nav__item-line"></div>
+
           <li class="main-nav__item">
-            <a class="main-nav__item-link" href="#">Программы</a>
+            <a class="main-nav__item-link" href="#">Подбор программы</a>
           </li>
+          <div class="main-nav__item-line"></div>
+
         </ul>
       </div>
     </nav>
@@ -55,6 +68,7 @@
     <!-- Программы -->
     <section class="programs">
       <div class="programs-wrapper">
+        <div class="programs__background-layer"></div>
         <h2 class="programs__header">Функциональное питание для котов</h2>
         <p class="programs__slogan">Занялся собой? Займись котом!</p>
         <picture>

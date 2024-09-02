@@ -1,3 +1,14 @@
-.header-logo__link {
 
+.header-logo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px 0;
+  margin-bottom: 15px;
+}
+
+.header-logo__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,5 +1,7 @@
 .burger {
-
+border: none;
+background: transparent;
+position: relative;
 }
 
 .burger__line {
@@ -11,7 +13,6 @@
   color: transparent;
   position: relative;
   cursor: pointer;
-  border: 5px solid pink;
 }
 
 .burger__line::before {
@@ -36,4 +37,15 @@
   right: 0;
   bottom: -8px;
   z-index: 1;
+}
+
+.burger__underline {
+  display: none;
+  width: 320px;
+  height: 1px;
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 66px;
+  right: auto;
+  justify-self: center;
 }
