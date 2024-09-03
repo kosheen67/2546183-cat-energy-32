@@ -1,6 +1,7 @@
 .example {
-  background-color: #ffffff;
-
+  background-color: #eaeaea;
+  padding: 25px 20px 0;
+  margin: 0;
 }
 
 .example__header {
@@ -9,21 +10,19 @@
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0 0 40px;
 }
 
 .example__content {
-  background-color: #ffffff;
-
+  margin-bottom: 20px;
 }
 
 .example__wrapper {
-  background-color: #ffffff;
 
 }
 
 .example__list {
-  background-color: #ffffff;
-
+  margin: 0 0 40px;
 }
 
 .example__cost {
@@ -33,21 +32,20 @@
   line-height: 20px;
   color: #000000;
   text-transform: uppercase;
+  margin: 0 auto 20px;
+  text-align: center;
 }
 
 .example__slider-before {
-  background-color: #ffffff;
 
 }
 
 
 .example__slider-after {
-  background-color: #ffffff;
 
 }
 
 .example__slider-control {
-  background-color: #ffffff;
 
 }
 

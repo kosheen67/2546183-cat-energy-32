@@ -1,11 +1,18 @@
 .definition-list {
-  background-color: #ffffff;
-
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-right: 0;
 }
 
 .definition-list__wrapper {
-  background-color: #ffffff;
-
+  min-width: 124px;
+  min-height: 56px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
 }
 
 .definition-list__term {
@@ -14,6 +21,10 @@
   font-size: 24px;
   line-height: 24px;
   color: #000000;
+
+
+  display: block;
+  margin: 14px auto 0;
 }
 
 .definition-list__content {
@@ -22,4 +33,11 @@
   font-size: 12px;
   line-height: 12px;
   color: #444444;
+  margin: 0;
+  position: absolute;
+  top: 46px;
+  left: 22px;
+  width: 77px;
+  min-height: 24px;
+  background-color: #eaeaea;
 }

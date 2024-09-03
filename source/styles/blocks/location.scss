@@ -10,10 +10,15 @@
 
 .location__map {
   background-color: #ffffff;
-
+  position: relative;
 }
 
 .location__map-image {
   background-color: #ffffff;
+}
 
+.location__mappin-image {
+  position: absolute;
+  top: 139px;
+  left: 134px;
 }

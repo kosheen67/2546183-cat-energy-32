@@ -1,6 +1,8 @@
 .content-wrapper {
   background-color: #ffffff;
-
+  display: flex;
+padding: 26px 20px 0;
+margin-bottom: 26px;
 }
 
 .content-wrapper__header {
@@ -10,6 +12,7 @@
   line-height: 20px;
   color: #111111;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .content-wrapper__address {
@@ -18,4 +21,5 @@
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+  margin: 0;
 }
