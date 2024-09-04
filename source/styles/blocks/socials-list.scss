@@ -1,7 +1,25 @@
 .socials-list {
- }
+  display: flex;
+
+
+  gap: 24px;
+  flex-wrap: wrap;
+  min-width: 132px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.socials-list::after {
+  content: "";
+  display: block;
+  width: 280px;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin: 0 auto;
+}
 
 .socials-list__item {
+  margin: 0;
 }
 
 .socials-list__link {
