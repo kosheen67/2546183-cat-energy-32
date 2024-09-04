@@ -1,26 +1,34 @@
 .card {
-  background-color: #ffffff;
-
+border-top: 1px solid #ebebeb;
+margin: 0;
 }
 
 .card__wrapper {
-  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 20px 20px 0;
+}
 
+.card-wrapper__picture {
+  display: block;
 }
 
 .card__wrapper-link {
   background-color: #ffffff;
-
+width: 50%;
+display: block;
 }
 
 .card__wrapper-image {
   background-color: #ffffff;
-
+display: block;
+margin: 0 auto;
 }
 
 .card__content {
   background-color: #ffffff;
-
+width: 50%;
 }
 
 .card__content-title {
@@ -29,6 +37,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #222222;
+  margin: 0;
+  max-width: 76px;
 }
 
 .card__list {
@@ -37,6 +47,10 @@
   font-size: 12px;
   line-height: 16px;
   color: #222222;
+
+  display: grid;
+  grid-template-columns: 70px 70px;
+  grid-template-rows: 16px 16px 16px;
 }
 
 .card__list-term {
@@ -45,13 +59,12 @@
 }
 
 .card__list-definiton {
-  background-color: #ffffff;
-
+margin: 0;
+text-align: right;
 }
 
 .card__more-products {
   background-color: #ffffff;
-
 }
 
 .card__more-products-wrapper {
