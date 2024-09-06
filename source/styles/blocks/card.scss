@@ -1,13 +1,22 @@
 .card {
-border-top: 1px solid #ebebeb;
-margin: 0;
+  border-top: 1px solid #ebebeb;
+  margin: 0;
+  height: 209px;
+}
+
+.card:last-child {
+  height: 207px;
+    background-image: url("../../icons/plus-mobile.svg");
+  background-size: 30px 30px;
+  background-position: 145px 25px;
+  background-repeat: no-repeat;
 }
 
 .card__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-padding: 20px 20px 0;
+  padding: 20px 20px 0;
 }
 
 .card-wrapper__picture {
@@ -16,19 +25,19 @@ padding: 20px 20px 0;
 
 .card__wrapper-link {
   background-color: #ffffff;
-width: 50%;
-display: block;
+  width: 50%;
+  display: block;
 }
 
 .card__wrapper-image {
   background-color: #ffffff;
-display: block;
-margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .card__content {
   background-color: #ffffff;
-width: 50%;
+  width: 50%;
 }
 
 .card__content-title {
@@ -47,6 +56,7 @@ width: 50%;
   font-size: 12px;
   line-height: 16px;
   color: #222222;
+  margin: 0 0 17px;
 
   display: grid;
   grid-template-columns: 70px 70px;
@@ -55,20 +65,24 @@ width: 50%;
 
 .card__list-term {
   background-color: #ffffff;
-
 }
 
 .card__list-definiton {
-margin: 0;
-text-align: right;
+  margin: 0;
+  text-align: right;
 }
 
 .card__more-products {
-  background-color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  // background-image: url("../../icons/plus-mobile.svg");
+  // background-size: 30px 30px;
+  // background-position: 145px 25px;
+  // background-repeat: no-repeat;
 }
 
 .card__more-products-wrapper {
-  background-image: url("../../icons/plus-mobile.svg");
+  margin: 78px 0 21px;
 }
 
 .card__more-products-header {
@@ -78,6 +92,7 @@ text-align: right;
   line-height: 20px;
   color: #111111;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .card__more-products-content {
@@ -97,4 +112,5 @@ text-align: right;
   color: #444444;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 10px 95px;
 }

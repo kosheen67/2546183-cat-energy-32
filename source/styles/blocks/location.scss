@@ -1,15 +1,22 @@
 .location {
-  background-color: #ffffff;
+  margin-top: 15px;
 }
 
 .location__content-wrapper {
-  background-color: #ffffff;
+}
+
+.location__catalog {
+  background-color: #f2f2f2;
+  padding-bottom: 26px;
 }
 
 .location__map {
-  background-color: #ffffff;
+  background-image: url("../../images/map-mobile@2x.jpg");
+  background-size: 320px 362px;
+  width: 320px;
+  height: 362px;
   position: relative;
-}
+ }
 
 .location__map-image {
   background-color: #ffffff;
@@ -17,9 +24,9 @@
 }
 
 .location__mappin-image {
+  display: block;
   position: absolute;
-  top: 139px;
-  left: 134px;
-  //display: block;
-  //margin: 0 auto; - не работает так центрирование
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

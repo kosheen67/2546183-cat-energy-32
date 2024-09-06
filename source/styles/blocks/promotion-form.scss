@@ -1,9 +1,21 @@
 .promotion-form {
-  background-color: #ffffff;
 
 }
 
 .promotion-form__input {
-  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  width: 280px;
+  height: 56px;
+padding: 13px;
+margin: 0 20px 16px;
+}
 
+.promotion-form__input[placeholder] {
+font-family: "Oswald", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-transform: uppercase;
+color: #444444;
+box-sizing: border-box;
 }
