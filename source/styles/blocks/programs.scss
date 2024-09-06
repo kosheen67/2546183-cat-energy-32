@@ -15,6 +15,15 @@
   position: relative;
   z-index: 1;
 }
+@media (min-width: $tablet-width) {
+.programs__header {
+  margin-left: 130px;
+  color: #000000;
+  font-size: 60px;
+  line-height: 60px;
+width: 414px;
+}
+}
 
 .programs__slogan {
   color: #ffffff;
@@ -49,4 +58,10 @@
   display: block;
   margin: 0 auto 20px;
   width: 154px;
+}
+
+@media (min-width: $tablet-width) {
+  .programs__link {
+    width: 192px;
+  }
 }

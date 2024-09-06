@@ -18,6 +18,8 @@
   margin: 0 auto;
 }
 
+@media (min-width: $tablet-width) {.socials-list::after {  display: none;}}
+
 .socials-list__item {
   margin: 0;
 }

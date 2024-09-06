@@ -9,3 +9,7 @@
   margin: 0 auto;
   background-color: white;
 }
+
+@media (min-width: $tablet-width) {
+  .page__body {min-width: 768px;}
+}

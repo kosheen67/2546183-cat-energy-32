@@ -39,3 +39,10 @@ position: relative;
   z-index: 1;
 }
 
+@media (min-width: $tablet-width) {
+  .burger__line, .burger__line::before,
+  .burger__line::after {
+    display: none;
+  }
+}
+

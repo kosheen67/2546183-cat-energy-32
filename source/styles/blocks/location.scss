@@ -13,10 +13,18 @@
 .location__map {
   background-image: url("../../images/map-mobile@2x.jpg");
   background-size: 320px 362px;
+  background-repeat:no-repeat;
   width: 320px;
   height: 362px;
   position: relative;
  }
+
+ @media (min-width: $tablet-width) {.location__map {
+  background-image: url("../../images/map-tablet@2x.jpg");
+  background-size: 768px 400px;
+   width: 768px;
+  height: 400px;
+ }}
 
 .location__map-image {
   background-color: #ffffff;

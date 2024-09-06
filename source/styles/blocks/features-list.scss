@@ -7,6 +7,13 @@
   margin-bottom: 0;
 }
 
+@media (min-width: $tablet-width) {
+  .features-list {flex-direction: row;
+    flex-wrap: wrap;
+    gap: 153px;
+}}
+
+
 .features-list__item {
   background-repeat: no-repeat;
   background-size: 60px 65px;
@@ -14,6 +21,12 @@
   background-position: 0 -7px;
   min-height: 60px;
 }
+
+@media (min-width: $tablet-width) {.features-list__item {
+  width: 230px;
+  min-height: 280px;
+}}
+
 
 .features-list__item--nutrition {
   background-image: url("../../icons/icon-nutrition-mobile.svg");

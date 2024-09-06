@@ -1,5 +1,6 @@
-.header-logo{margin-bottom: 27px;}
-
+.header-logo {
+  margin-bottom: 27px;
+}
 
 .header-logo__wrapper {
   display: flex;
@@ -7,6 +8,12 @@
   align-items: center;
   padding: 13px 20px 0;
   margin-bottom: 15px;
+}
+
+@media (min-width: $tablet-width) {
+.header-logo__wrapper {
+width: 174px;
+}
 }
 
 .header-logo__link {

@@ -15,6 +15,10 @@
   padding: 30px 33px 18px 20px;
 }
 
+@media (min-width: $tablet-width) {.programs-list__item {width: 708px;
+min-height: 372px}}
+
+
 .programs-list__item:nth-child(2) {
   background-color: $basic-grey;
   background-image: url("../../icons/stack.svg#cat-gaining-weight-mobile");

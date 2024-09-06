@@ -5,6 +5,9 @@
   position: relative;
 }
 
+@media (min-width: $tablet-width) {.programs-wrapper { background-image: none;}}
+
+
 .programs__background-layer {
   width: 320px;
   height: 302px;
@@ -15,12 +18,6 @@
   z-index: 0;
 }
 
-// .programs-wrapper::before {
-//   content: "";
-//   width: 100%;
-//   height: 302px;
-//   background-color: rgba(104, 183, 56, 0.85);
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-// }
+@media (min-width: $tablet-width) {.programs__background-layer {
+  display: none;
+}}

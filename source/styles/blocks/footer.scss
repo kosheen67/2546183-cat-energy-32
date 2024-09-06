@@ -8,6 +8,12 @@
   width: 320px;
 }
 
+@media (min-width: $tablet-width) {.footer {
+  width: 768px;
+  flex-direction: row;
+  justify-content: space-between;
+}}
+
 .footer__logo-link-wrapper::after {
   content: "";
   display: block;
@@ -16,6 +22,10 @@
   background-color: #d9d9d9;
   margin: 20px auto 0;
 }
+
+@media (min-width: $tablet-width) {.footer__logo-link-wrapper::after {
+  display: none;
+}}
 
 .footer__logo-link {
   display: block;
