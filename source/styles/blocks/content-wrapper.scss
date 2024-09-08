@@ -3,7 +3,8 @@
   padding: 26px 20px;
 }
 
-@media (min-width: $tablet-width) {.content-wrapper {justify-content: space-between;}}
+@media (min-width: $tablet-width) {.content-wrapper {justify-content: space-between;
+padding: 70px 60px;}}
 
 .content-wrapper__header {
   font-family: "Oswald", sans-serif;
@@ -15,7 +16,8 @@
   margin: 0;
 }
 
-@media (min-width: $tablet-width) {.content-wrapper__header {width: 163px;}}
+@media (min-width: $tablet-width) {.content-wrapper__header {width: 163px;
+}}
 
 .content-wrapper__address {
   font-family: "Lato", sans-serif;

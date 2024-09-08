@@ -9,7 +9,6 @@ justify-content: space-between;
 gap: 40px;
 width: 100%;
 position: relative;
-
 }
 
 .extra-goods__header {
@@ -25,25 +24,33 @@ position: relative;
 }
 
 .extra-goods__header::after {
-content: "";
-display: block;
-min-width: 10%;
-height: 2px;
-background-color:#68B738;
-position: absolute;
-top: 37;
-right: 0;
-padding: 0;
+  content: "";
+  display: block;
+  min-width: 10%;
+  height: 2px;
+  background-color:#68B738;
+  position: absolute;
+  top: 37;
+  right: 0;
+  padding: 0;
 }
 
 .extra-goods__list {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid #cdcdcd;
+  }
 }
 
 .extra-goods__item {
   margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 362px;
+  }
 }
 
 .extra-goods__item:first-child::before {
