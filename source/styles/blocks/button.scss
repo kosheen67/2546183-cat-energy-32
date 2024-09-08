@@ -16,9 +16,9 @@
 }
 
 @media (min-width: $tablet-width) {
-  .button--primary {
+  .extra-goods__list .button--primary {
   width: 632px;
   padding: 10px 285px;
-  background-color: pink;
+  background-color: $basic-green;
 }
 }
