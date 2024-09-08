@@ -26,6 +26,10 @@
 
 .example__content {
   margin-bottom: 20px;
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+  }
 }
 
 .example__wrapper {

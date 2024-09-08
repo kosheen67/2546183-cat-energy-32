@@ -4,20 +4,32 @@
   flex-direction: column;
   gap: 20px;
   margin-bottom: 0;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    gap: 80px;
+  }
 }
 
 .programs-list__item {
+  width: 240px;
   background-color: $basic-grey;
   background-image: url("../../icons/stack.svg#cat-loosing-weight-mobile");
   background-size: 50px 53px;
   background-repeat: no-repeat;
   background-position: 20px 21px;
   padding: 30px 33px 18px 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    min-height: 372px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    min-height: 374px;
+  }
 }
-
-@media (min-width: $tablet-width) {.programs-list__item {width: 708px;
-min-height: 372px}}
-
 
 .programs-list__item:nth-child(2) {
   background-color: $basic-grey;
