@@ -41,6 +41,10 @@
   text-align: center;
   width: 280px;
   margin-bottom: 24px;
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+  }
 }
 
 .promotion__form {
