@@ -1,10 +1,12 @@
 .content-wrapper {
   display: flex;
   padding: 26px 20px;
-}
 
-@media (min-width: $tablet-width) {.content-wrapper {justify-content: space-between;
-padding: 70px 60px;}}
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+    padding: 70px 60px;
+  }
+}
 
 .content-wrapper__header {
   font-family: "Oswald", sans-serif;
@@ -14,10 +16,11 @@ padding: 70px 60px;}}
   color: #111111;
   text-transform: uppercase;
   margin: 0;
-}
 
-@media (min-width: $tablet-width) {.content-wrapper__header {width: 163px;
-}}
+  @media (min-width: $tablet-width) {
+    width: 163px;
+  }
+}
 
 .content-wrapper__address {
   font-family: "Lato", sans-serif;
@@ -26,6 +29,8 @@ padding: 70px 60px;}}
   line-height: 20px;
   color: #444444;
   margin: 0;
-}
 
-@media (min-width: $tablet-width) {.content-wrapper__address {width: 163px;}}
+  @media (min-width: $tablet-width) {
+    width: 163px;
+  }
+}

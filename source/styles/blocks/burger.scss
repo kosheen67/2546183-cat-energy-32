@@ -1,7 +1,7 @@
 .burger {
-border: none;
-background: transparent;
-position: relative;
+  border: none;
+  background: transparent;
+  position: relative;
 }
 
 .burger__line {
@@ -40,9 +40,9 @@ position: relative;
 }
 
 @media (min-width: $tablet-width) {
-  .burger__line, .burger__line::before,
+  .burger__line,
+  .burger__line::before,
   .burger__line::after {
     display: none;
   }
 }
-

@@ -1,14 +1,14 @@
 .extra-goods {
-
+  background: transparent;
 }
 
 .extra-goods__header-wrapper {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-gap: 40px;
-width: 100%;
-position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  position: relative;
 }
 
 .extra-goods__header {
@@ -28,7 +28,7 @@ position: relative;
   display: block;
   min-width: 10%;
   height: 2px;
-  background-color:#68B738;
+  background-color: #68b738;
   position: absolute;
   top: 37;
   right: 0;
@@ -107,7 +107,7 @@ position: relative;
 }
 
 .extra-goods__price {
- margin: 0;
+  margin: 0;
 }
 
 .extra-goods__offer {
@@ -161,5 +161,6 @@ position: relative;
   text-align: center;
   width: 161px;
   margin: 48px auto 43px;
- position: relative;
-z-index: 3;}
+  position: relative;
+  z-index: 3;
+}

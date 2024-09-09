@@ -1,9 +1,10 @@
 .promotion {
- display: flex;
- flex-direction: column;
- align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.promotion__header-wrapper{
+
+.promotion__header-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -48,6 +49,5 @@
 }
 
 .promotion__form {
-
-
+  background: transparent;
 }

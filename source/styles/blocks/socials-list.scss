@@ -16,13 +16,16 @@
   height: 1px;
   background-color: #d9d9d9;
   margin: 0 auto;
-}
 
-@media (min-width: $tablet-width) {.socials-list::after {  display: none;}}
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
 
 .socials-list__item {
   margin: 0;
 }
 
 .socials-list__link {
+  background: transparent;
 }

@@ -1,23 +1,18 @@
 .page {
-  background-color: lightcyan;
+  background-color: $basic-grey;
   overflow-x: hidden;
 }
-
 
 .page__body {
   width: 320px;
   margin: 0 auto;
   background-color: #ffffff;
-}
 
-@media (min-width: $tablet-width) {
-  .page__body {
+  @media (min-width: $tablet-width) {
     min-width: 768px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .page__body {
+  @media (min-width: $desktop-width) {
     min-width: 1440px;
   }
 }

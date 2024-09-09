@@ -10,7 +10,9 @@
   line-height: 40px;
   color: #000000;
   margin: 0 0 43px;
-}
 
-@media (min-width: $tablet-width) {.features__header {font-size: 60px;
-line-height: 60px;}}
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}

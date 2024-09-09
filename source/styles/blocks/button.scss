@@ -1,4 +1,5 @@
 .button {
+  background: transparent;
 }
 
 .button--primary {
@@ -17,8 +18,8 @@
 
 @media (min-width: $tablet-width) {
   .extra-goods__list .button--primary {
-  width: 632px;
-  padding: 10px 285px;
-  background-color: $basic-green;
-}
+    width: 632px;
+    padding: 10px 285px;
+    background-color: $basic-green;
+  }
 }

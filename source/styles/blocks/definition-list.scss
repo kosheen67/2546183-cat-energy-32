@@ -40,9 +40,8 @@
   width: 77px;
   min-height: 24px;
   background-color: #eaeaea;
+
+  @media (min-width: $tablet-width) {
+    background-color: #ffffff;
+  }
 }
-
-@media (min-width: $tablet-width) {.definition-list__content{
-  background-color: #ffffff;
-}}
-
