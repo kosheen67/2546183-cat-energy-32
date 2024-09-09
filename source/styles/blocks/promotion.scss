@@ -21,7 +21,7 @@
   margin: 40px 40px 32px 20px;
 }
 
-.promotion__header:after {
+.promotion__header::after {
   content: "";
   background-color: #68b738;
   min-width: 30%;
