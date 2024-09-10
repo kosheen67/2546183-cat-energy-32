@@ -1,5 +1,6 @@
 .content-wrapper {
   display: flex;
+  width: 280px;
   padding: 26px 20px;
 
   @media (min-width: $tablet-width) {
@@ -16,6 +17,7 @@
   color: #111111;
   text-transform: uppercase;
   margin: 0;
+  width: 140px;
 
   @media (min-width: $tablet-width) {
     width: 163px;
@@ -29,6 +31,7 @@
   line-height: 20px;
   color: #444444;
   margin: 0;
+  width: 140px;
 
   @media (min-width: $tablet-width) {
     width: 163px;
