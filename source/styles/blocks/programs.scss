@@ -1,27 +1,47 @@
 .programs {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 .programs__header {
-  color: #000000;
+  color: #ffffff;
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
+  margin: 0 auto 25px;
+  padding: 27px 36px 0;
+  min-width: 250px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 130px;
+    color: #000000;
+    font-size: 60px;
+    line-height: 60px;
+    width: 414px;
+  }
 }
 
 .programs__slogan {
-  background-color: $basic-green;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-transform: uppercase;
+  margin: 0 auto 29px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .programs__image {
-  background-color: transparent;
+  display: block;
+  margin: 0 auto 3px;
+  position: relative;
+  z-index: 1;
 }
 
 .programs__link {
@@ -32,4 +52,16 @@
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 63px;
+  display: block;
+  margin: 0 auto 20px;
+  width: 154px;
+}
+
+@media (min-width: $tablet-width) {
+  .programs__link {
+    width: 192px;
+    margin-left: 20px;
+  }
 }

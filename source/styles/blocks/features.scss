@@ -1,5 +1,6 @@
 .features {
-  background-color: transparent;
+  background-color: #ffffff;
+  padding: 20px 20px 49px;
 }
 
 .features__header {
@@ -8,4 +9,10 @@
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0 0 43px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }

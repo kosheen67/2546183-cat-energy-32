@@ -1,21 +1,62 @@
 .card {
-  background-color: transparent;
+  border-top: 1px solid #ebebeb;
+  margin: 0;
+  height: 209px;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    height: 511px;
+    width: 324px;
+    background-color: #f2f2f2;
+    margin-right: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    border: none;
+    height: 245px;
+    width: 511px;
+    background-color: #f2f2f2;
+    margin-right: 0;
+  }
+}
+
+.card:last-child {
+  height: 207px;
+  background-image: url("../../icons/plus-mobile.svg");
+  background-size: 30px 30px;
+  background-position: 145px 25px;
+  background-repeat: no-repeat;
 }
 
 .card__wrapper {
-  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 0;
+
+  @media (min-width: $tablet-width) {
+    background-color: #f2f2f2;
+  }
+}
+
+.card-wrapper__picture {
+  display: block;
 }
 
 .card__wrapper-link {
-  background-color: transparent;
+  width: 50%;
+  display: block;
 }
 
 .card__wrapper-image {
-  background-color: transparent;
+
+  display: block;
+  margin: 0 auto;
 }
 
 .card__content {
-  background-color: transparent;
+
+  width: 50%;
 }
 
 .card__content-title {
@@ -24,6 +65,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #222222;
+  margin: 0;
+  max-width: 76px;
 }
 
 .card__list {
@@ -32,6 +75,11 @@
   font-size: 12px;
   line-height: 16px;
   color: #222222;
+  margin: 0 0 17px;
+
+  display: grid;
+  grid-template-columns: 70px 70px;
+  grid-template-rows: 16px 16px 16px;
 }
 
 .card__list-term {
@@ -39,15 +87,21 @@
 }
 
 .card__list-definiton {
-  background-color: transparent;
+  margin: 0;
+  text-align: right;
 }
 
 .card__more-products {
-  background-color: transparent;
+  margin: 0 auto;
+  text-align: center;
+  // background-image: url("../../icons/plus-mobile.svg");
+  // background-size: 30px 30px;
+  // background-position: 145px 25px;
+  // background-repeat: no-repeat;
 }
 
 .card__more-products-wrapper {
-  background-color: transparent;
+  margin: 78px 0 21px;
 }
 
 .card__more-products-header {
@@ -56,6 +110,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #111111;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .card__more-products-content {
@@ -73,4 +129,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #444444;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 95px;
 }

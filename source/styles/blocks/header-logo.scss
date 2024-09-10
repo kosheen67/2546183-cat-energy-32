@@ -1,3 +1,21 @@
 .header-logo {
-  background-color: transparent;
+  margin-bottom: 27px;
+}
+
+.header-logo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px 0;
+  margin-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    width: 174px;
+  }
+}
+
+.header-logo__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,27 +1,50 @@
 .features-list {
-  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    flex: wrap;
+    gap: 153px;
+  }
 }
 
 .features-list__item {
-  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 60px 65px;
+  margin: 0;
+  background-position: 0 -7px;
+  min-height: 60px;
+
+  @media (min-width: $tablet-width) {
+    width: 230px;
+    min-height: 280px;
+  }
 }
 
 .features-list__item--nutrition {
-  background-color: transparent;
-}
-
-.features-list__content {
-  background-color: transparent;
+  background-image: url("../../icons/icon-nutrition-mobile.svg");
 }
 
 .features-list__item--form {
-  background-color: transparent;
+  background-image: url("../../icons/icon-form-mobile.svg");
 }
 
 .features-list__item--meal {
-  background-color: transparent;
+  background-image: url("../../icons/icon-meal-mobile.svg");
 }
 
 .features-list__item--time {
-  background-color: transparent;
+  background-image: url("../../icons/icon-time-mobile.svg");
+}
+
+
+.features-list__content {
+  background-color: #ffffff;
+  margin-left: 80px;
+  margin-bottom: 0;
 }

@@ -1,5 +1,11 @@
 .example {
-  background-color: transparent;
+  background-color: #eaeaea;
+  padding: 25px 20px 0;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    background-color: #ffffff;
+  }
 }
 
 .example__header {
@@ -8,10 +14,20 @@
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0 0 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .example__content {
-  background-color: transparent;
+  margin-bottom: 20px;
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+  }
 }
 
 .example__wrapper {
@@ -19,7 +35,7 @@
 }
 
 .example__list {
-  background-color: transparent;
+  margin: 0 0 40px;
 }
 
 .example__cost {
@@ -28,12 +44,80 @@
   font-size: 14px;
   line-height: 20px;
   color: #000000;
+  text-transform: uppercase;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.example__slider-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    margin-left: 104px;
+  }
+}
+
+.example__before-wrapper {
+  width: 280px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background-color: #eaeaea;
+
+  @media (min-width: $tablet-width) {
+    background-color: #ffffff;
+  }
 }
 
 .example__slider-before {
   background-color: transparent;
 }
 
+.example__slider-control-wrapper {
+  position: absolute;
+  z-index: 3;
+  background: transparent;
+  top: 0;
+  left: 120px;
+
+  @media (min-width: $tablet-width) {
+    left: 268px;
+  }
+}
+
+.example__slider-control {
+  background: transparent;
+
+  @media (min-width: $tablet-width) {
+    height: 512px;
+  }
+}
+
+.example__slider-control:hover {
+  stroke: #68b738;
+  fill: #68b738;
+}
+
+.example__slider-control:active {
+  fill: rgba(94, 170, 47, 0.6);
+  stroke: rgba(94, 170, 47, 0.6);
+}
+
+.example__after-wrapper {
+  width: 280px;
+  margin-left: -140px;
+  position: relative;
+  z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    margin-left: -280px;
+  }
+}
+
 .example__slider-after {
-  background-color: transparent;
+  background: transparent;
 }
