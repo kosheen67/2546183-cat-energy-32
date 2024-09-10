@@ -2,9 +2,10 @@
   border: none;
   background: transparent;
   position: relative;
+  cursor: pointer;
 }
 
-.burger__line {
+.burger__line--closed-menu {
   display: block;
   width: 24px;
   height: 2px;
@@ -15,7 +16,7 @@
   cursor: pointer;
 }
 
-.burger__line::before {
+.burger__line--closed-menu::before {
   content: "";
   display: block;
   width: 24px;
@@ -27,7 +28,7 @@
   z-index: 1;
 }
 
-.burger__line::after {
+.burger__line--closed-menu::after {
   content: "";
   display: block;
   width: 24px;
@@ -45,4 +46,27 @@
   .burger__line::after {
     display: none;
   }
+}
+
+.burger__line--opened-menu {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #000000;
+  font-size: 0;
+  color: transparent;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+.burger__line--opened-menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 2px;
+  background-color: #000000;
+  transform: rotate(-90deg);
 }

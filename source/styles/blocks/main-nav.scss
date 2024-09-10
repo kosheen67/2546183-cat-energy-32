@@ -2,7 +2,7 @@
   background-color: transparent;
 }
 
-.main-nav__list {
+.main-nav__list--opened-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,6 +20,10 @@
     margin-bottom: 65px;
     border: none;
   }
+}
+
+.main-nav__list--closed-menu {
+  display: none;
 }
 
 .main-nav__item::after {
