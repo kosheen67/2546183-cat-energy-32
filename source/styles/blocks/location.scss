@@ -1,8 +1,15 @@
 .location {
   margin-top: 15px;
-}
+   }
+
 
 .location__content-wrapper {
+  @media (min-width: $tablet-width) {
+    margin-left: 40px;
+    padding: 0;
+    width: 628px;
+  }
+
   @media (min-width: $desktop-width) {
     width: 565px;
     background-color: #ffffff;
@@ -44,6 +51,13 @@
 .location__map iframe {
   border: none;
   display: block;
+
+@media (min-width: $tablet-width) {
+  width: 768px;
+  height: 400px;
+  margin: 0 auto;
+    padding: 0;
+}
 }
 
 .location__mappin-image {

@@ -6,6 +6,10 @@
 
   @media (min-width: $tablet-width) {
     background-image: none;
+    min-width: 768px;
+    border: 2px solid blue;
+    text-align: left;
+    position: relative;
   }
 }
 

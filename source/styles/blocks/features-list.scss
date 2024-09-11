@@ -8,8 +8,9 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
-    flex: wrap;
+    flex-wrap: wrap;
     gap: 153px;
+    width: 629px;
   }
 }
 
@@ -23,11 +24,17 @@
   @media (min-width: $tablet-width) {
     width: 230px;
     min-height: 280px;
+    background-size: 80px 80px;
+    background-position: 0 50px;
   }
 }
 
 .features-list__item--nutrition {
   background-image: url("../../icons/icon-nutrition-mobile.svg");
+
+@media (min-width: $tablet-width) {
+
+}
 }
 
 .features-list__item--form {
@@ -47,4 +54,12 @@
   background-color: #ffffff;
   margin-left: 80px;
   margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 170px;
+    margin-left: 0;
+    width: 230px;
+  }
 }

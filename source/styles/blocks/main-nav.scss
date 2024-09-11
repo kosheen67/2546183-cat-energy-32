@@ -1,5 +1,9 @@
 .main-nav {
   background-color: transparent;
+
+  @media (min-width: $tablet-width) {
+    width: 436px;
+  }
 }
 
 .main-nav__list--opened-menu {
@@ -16,14 +20,21 @@
   .main-nav__list {
     flex-direction: row;
     gap: 33px;
-    width: 436px;
-    margin-bottom: 65px;
-    border: none;
+    margin: 0;
+    padding: 0;
   }
 }
 
 .main-nav__list--closed-menu {
   display: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .main-nav__item::after {
@@ -51,6 +62,11 @@
   display: block;
   padding: 22px 0 24px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 @media (min-width: $tablet-width) {

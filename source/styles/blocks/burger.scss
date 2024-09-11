@@ -4,6 +4,10 @@
   position: relative;
   cursor: pointer;
   height: 24px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .burger__line--closed-menu {

@@ -5,7 +5,8 @@
 
   @media (min-width: $tablet-width) {
     justify-content: space-between;
-    padding: 70px 60px;
+    padding: 60px 70px;
+    width: 628px;
   }
 }
 
@@ -20,7 +21,9 @@
   width: 140px;
 
   @media (min-width: $tablet-width) {
-    width: 163px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #111111;
   }
 }
 
@@ -34,6 +37,8 @@
   width: 140px;
 
   @media (min-width: $tablet-width) {
-    width: 163px;
+    min-width: 157px;
+    font-size: 16px;
+    text-align: right;
   }
 }

@@ -13,6 +13,11 @@
   border-radius: 5px;
   text-align: center;
   position: relative;
+
+  @media (min-width: $tablet-width) {
+    width: 162px;
+    min-height: 72px;
+  }
 }
 
 .definition-list__term {
@@ -21,10 +26,13 @@
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-
-
   display: block;
   margin: 14px auto 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .definition-list__content {
@@ -42,6 +50,9 @@
   background-color: #eaeaea;
 
   @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 14px;
     background-color: #ffffff;
+    top: 55px;
   }
 }
