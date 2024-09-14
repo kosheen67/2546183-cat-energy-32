@@ -14,6 +14,11 @@
     position: relative;
     margin-bottom: 47px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1330px;
+    gap: 77px;
+  }
 }
 
 .features-list__item {
@@ -33,10 +38,11 @@
 
 .features-list__item--nutrition {
   background-image: url("../../icons/icon-nutrition-mobile.svg");
+  margin-right: 17px;
 }
 
 .features-list__item--nutrition::after {
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     content: "1";
     font-weight: 400;
     font-family: "Oswald", sans-serif;
@@ -52,10 +58,11 @@
 
 .features-list__item--form {
   background-image: url("../../icons/icon-form-mobile.svg");
+  margin-right: 2px;
 }
 
 .features-list__item--form::after {
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     content: "2";
     font-weight: 400;
     font-family: "Oswald", sans-serif;
@@ -67,6 +74,10 @@
     right: 6px;
     z-index: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    left: 436px;
+  }
 }
 
 .features-list__item--meal {
@@ -74,7 +85,7 @@
 }
 
 .features-list__item--meal::after {
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     content: "3";
     font-weight: 400;
     font-family: "Oswald", sans-serif;
@@ -86,6 +97,10 @@
     left: 118px;
     z-index: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    left: 743px;
+  }
 }
 
 .features-list__item--time {
@@ -93,7 +108,7 @@
 }
 
 .features-list__item--time::after {
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     content: "4";
     font-weight: 400;
     font-family: "Oswald", sans-serif;
@@ -104,6 +119,10 @@
     bottom: -10px;
     right: 0;
     z-index: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 1055px;
   }
 }
 

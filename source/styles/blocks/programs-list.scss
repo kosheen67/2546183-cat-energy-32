@@ -13,6 +13,9 @@
   @media (min-width: $desktop-width) {
     flex-direction: row;
     gap: 80px;
+    margin-top: 462px;
+    margin-bottom: 71px;
+    padding: 0;
   }
 }
 
@@ -36,6 +39,8 @@
   @media (min-width: $desktop-width) {
     width: 570px;
     min-height: 374px;
+    background-size: 100px 106px;
+    background-position: 52px 41px;
   }
 }
 
@@ -51,6 +56,13 @@
     background-size: 268px 200px;
     background-position: 411px 91px;
     padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    min-height: 374px;
+    background-size: 134px 100px;
+    background-position: 33px 47px;
   }
 }
 
@@ -72,6 +84,11 @@
     margin-left: 53px;
     margin-bottom: 24px;
   }
+
+@media (min-width: $desktop-width) {
+  margin-left: 214px;
+  margin-bottom: 73px;
+}
 }
 
 .programs-list__header--loosing-weight {
@@ -89,6 +106,11 @@
     margin-bottom: 54px;
     margin-left: 52px;
   }
+
+@media (min-width: $desktop-width) {
+  width: 457px;
+  margin-bottom: 23px;
+}
 }
 
 .programs-list__content-line {

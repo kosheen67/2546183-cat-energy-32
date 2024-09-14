@@ -4,6 +4,10 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+  }
 }
 
 .programs__header {
@@ -31,6 +35,10 @@
     margin-bottom: 40px;
     padding: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 60px;
+  }
 }
 
 .programs__slogan {
@@ -55,6 +63,10 @@
     margin-bottom: 50px;
     text-align: left;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 60px;
+  }
 }
 
 .programs__image {
@@ -64,9 +76,15 @@
   z-index: 1;
 
   @media (min-width: $tablet-width) {
-    width: 709;
-    height: 609;
+    width: 709px;
+    height: 609px;
     margin: -21px 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 552px;
+    height: 499px;
+    margin: -315px 425px;
   }
 }
 
@@ -94,5 +112,11 @@
     top: 225px;
     left: 90px;
     z-index: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 60px;
+    left: 0;
+    margin-bottom: 280px;
   }
 }

@@ -9,6 +9,12 @@
     width: 628px;
     margin: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 407px;
+    height: 79px;
+    padding: 60px 78px 80px;
+  }
 }
 
 .content-wrapper__header {

@@ -65,4 +65,8 @@
     left: 15px;
     min-width: 125px;
   }
+
+  @media (min-width: $desktop-width) {
+    background-color: #f2f2f2;
+  }
 }

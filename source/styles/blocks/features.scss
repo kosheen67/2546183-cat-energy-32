@@ -7,6 +7,13 @@
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin-left: 110px;
+    border-bottom: none;
+    margin-bottom: 69px;
+  }
 }
 
 .features__header {
