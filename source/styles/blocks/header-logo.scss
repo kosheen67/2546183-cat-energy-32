@@ -2,11 +2,14 @@
   margin-bottom: 27px;
 
   @media (min-width: $tablet-width) {
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 65px;
     width: 704px;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
   }
 }
 

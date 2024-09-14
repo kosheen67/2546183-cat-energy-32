@@ -1,5 +1,9 @@
 .programs {
   background-color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 45px;
+  }
 }
 
 .programs__header {
@@ -48,7 +52,7 @@
     line-height: 20px;
     margin: 0;
     margin-left: 90px;
-    margin-bottom: 21px;
+    margin-bottom: 50px;
     text-align: left;
   }
 }
@@ -62,6 +66,7 @@
   @media (min-width: $tablet-width) {
     width: 709;
     height: 609;
+    margin: -21px 10px;
   }
 }
 
@@ -85,9 +90,8 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    margin-left: 20px;
     position: absolute;
-    top: 210px;
+    top: 225px;
     left: 90px;
     z-index: 1;
   }

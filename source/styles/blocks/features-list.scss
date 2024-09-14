@@ -11,6 +11,8 @@
     flex-wrap: wrap;
     gap: 153px;
     width: 629px;
+    position: relative;
+    margin-bottom: 47px;
   }
 }
 
@@ -31,35 +33,90 @@
 
 .features-list__item--nutrition {
   background-image: url("../../icons/icon-nutrition-mobile.svg");
-
-@media (min-width: $tablet-width) {
-
 }
+
+.features-list__item--nutrition::after {
+  @media (min-width: 768px) {
+    content: "1";
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 280px;
+    line-height: 280px;
+    color: $basic-grey;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    z-index: 0;
+  }
 }
 
 .features-list__item--form {
   background-image: url("../../icons/icon-form-mobile.svg");
 }
 
+.features-list__item--form::after {
+  @media (min-width: 768px) {
+    content: "2";
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 280px;
+    line-height: 280px;
+    color: $basic-grey;
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    z-index: 0;
+  }
+}
+
 .features-list__item--meal {
   background-image: url("../../icons/icon-meal-mobile.svg");
+}
+
+.features-list__item--meal::after {
+  @media (min-width: 768px) {
+    content: "3";
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 280px;
+    line-height: 280px;
+    color: $basic-grey;
+    position: absolute;
+    bottom: -10px;
+    left: 118px;
+    z-index: 0;
+  }
 }
 
 .features-list__item--time {
   background-image: url("../../icons/icon-time-mobile.svg");
 }
 
+.features-list__item--time::after {
+  @media (min-width: 768px) {
+    content: "4";
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 280px;
+    line-height: 280px;
+    color: $basic-grey;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    z-index: 0;
+  }
+}
 
 .features-list__content {
-  background-color: #ffffff;
-  margin-left: 80px;
   margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
-    margin-top: 170px;
+    margin-top: 162px;
     margin-left: 0;
-    width: 230px;
+    min-width: 240px;
+    position: relative;
+    z-index: 1;
   }
 }

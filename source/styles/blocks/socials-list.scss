@@ -6,6 +6,11 @@
   min-width: 132px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    margin-left: 139px;
+  }
 }
 
 .socials-list::after {

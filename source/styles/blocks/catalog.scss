@@ -10,3 +10,10 @@
 .catalog-list__card {
   background-color: #ffffff;
 }
+
+.catalog .button--primary {
+  @media (min-width: $tablet-width) {
+    max-width: 250px;
+    margin: 0 37px 40px;
+  }
+}

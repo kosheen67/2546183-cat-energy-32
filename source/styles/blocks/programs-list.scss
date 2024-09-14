@@ -7,6 +7,7 @@
 
   @media (min-width: $desktop-width) {
     gap: 30px;
+    margin-bottom: 45px;
   }
 
   @media (min-width: $desktop-width) {
@@ -28,7 +29,7 @@
     width: 708px;
     min-height: 372px;
     background-size: 268px 200px;
-    background-position: 445px 80px;
+    background-position: 412px 90px;
     padding: 0;
   }
 
@@ -67,7 +68,7 @@
     font-size: 36px;
     line-height: 36px;
     margin: 0;
-    margin-top: 77px;
+    margin-top: 80px;
     margin-left: 53px;
     margin-bottom: 24px;
   }
@@ -83,9 +84,9 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
-    width: 300px;
+    width: 340px;
     color: #000000;
-    margin-bottom: 48px;
+    margin-bottom: 54px;
     margin-left: 52px;
   }
 }
@@ -127,7 +128,9 @@
 }
 
 .programs-list__arrow {
-  margin-left: 13px;
+  margin-left: 21px;
+  width: 24px;
+  text-align: center;
 }
 
 .programs-list__arrow:hover {

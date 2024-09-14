@@ -1,6 +1,12 @@
 .features {
   background-color: #ffffff;
   padding: 20px 20px 49px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 109px 0 30px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 45px;
+  }
 }
 
 .features__header {

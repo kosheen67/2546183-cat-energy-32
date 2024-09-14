@@ -3,11 +3,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 280px;
+  width: 280px;
   margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
+    margin-left: 105px;
+    justify-content: flex-start;
+    max-width: 168px;
+    gap: 23px;
   }
 }
 

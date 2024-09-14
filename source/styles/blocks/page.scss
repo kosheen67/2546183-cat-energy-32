@@ -1,5 +1,4 @@
 .page {
-  background-color: $basic-grey;
   overflow-x: hidden;
 }
 
@@ -10,7 +9,7 @@
 
   @media (min-width: $tablet-width) {
     min-width: 768px;
-    padding: 0 30px;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {

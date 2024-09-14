@@ -8,11 +8,11 @@
   width: 320px;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: 708px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 55px;
+    padding: 55px 30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -20,6 +20,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 66px 110px;
+    margin-bottom: 55px;
   }
 }
 

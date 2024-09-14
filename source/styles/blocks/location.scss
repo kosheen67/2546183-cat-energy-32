@@ -1,11 +1,15 @@
 .location {
   margin-top: 15px;
-   }
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+}
 
 
 .location__content-wrapper {
   @media (min-width: $tablet-width) {
-    margin-left: 40px;
+    margin-left: 0;
     padding: 0;
     width: 628px;
   }

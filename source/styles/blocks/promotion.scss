@@ -19,6 +19,13 @@
   line-height: 24px;
   color: #000000;
   margin: 40px 40px 16px 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+    line-height: 32px;
+    padding: 40px 0;
+    margin-bottom: 26px;
+  }
 }
 
 .promotion__header::after {
@@ -43,6 +50,14 @@
   width: 280px;
   margin-bottom: 24px;
 
+  @media (min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 32px;
+    width: 632px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
   @media (min-width: $desktop-width) {
     width: 1440px;
   }
@@ -50,4 +65,10 @@
 
 .promotion__form {
   background: transparent;
+}
+
+.promotion .button--primary {
+  @media (min-width: $tablet-width) {
+    width: 256px;
+  }
 }
