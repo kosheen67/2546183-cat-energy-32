@@ -1,5 +1,5 @@
 .programs {
-  background-color: #ffffff;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 45px;
@@ -73,7 +73,7 @@
   display: block;
   margin: 0 auto 3px;
   position: relative;
-  z-index: 1;
+  z-index: 4;
 
   @media (min-width: $tablet-width) {
     width: 709px;

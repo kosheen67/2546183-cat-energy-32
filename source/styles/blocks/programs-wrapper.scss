@@ -16,14 +16,13 @@
   }
 }
 
-.programs__background-layer {
+.programs-wrapper::before {
+  content: "";
   width: 320px;
-  height: 302px;
-  background-color: rgba(#68b738, 0.85);
+  height: 305px;
+  background-color: rgba(104, 183, 56, 0.85);
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
+  z-index: 2;
 
   @media (min-width: $tablet-width) {
     display: none;
@@ -35,11 +34,10 @@
     height: 694px;
     top: -224px;
     left: 590px;
-    z-index: 1;
   }
 }
 
-.programs__background-layer::after {
+.programs-wrapper::after {
   @media (min-width: $desktop-width) {
     content: "";
     display: block;
@@ -47,8 +45,7 @@
     height: 694px;
     background-image: url("../../images/index-background-desktop@1x.jpg");
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    top: -224px;
+    right: 20px;
   }
 }
