@@ -93,9 +93,9 @@
 .example__list {
   margin: 0 0 40px;
 
-@media (min-width: $desktop-width) {
-  margin-bottom: 55px;
-}
+  @media (min-width: $desktop-width) {
+    margin-bottom: 55px;
+  }
 }
 
 .example__cost {

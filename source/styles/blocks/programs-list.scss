@@ -85,10 +85,10 @@
     margin-bottom: 24px;
   }
 
-@media (min-width: $desktop-width) {
-  margin-left: 214px;
-  margin-bottom: 73px;
-}
+  @media (min-width: $desktop-width) {
+    margin-left: 214px;
+    margin-bottom: 73px;
+  }
 }
 
 .programs-list__header--loosing-weight {
@@ -107,10 +107,10 @@
     margin-left: 52px;
   }
 
-@media (min-width: $desktop-width) {
-  width: 457px;
-  margin-bottom: 23px;
-}
+  @media (min-width: $desktop-width) {
+    width: 457px;
+    margin-bottom: 23px;
+  }
 }
 
 .programs-list__content-line {
