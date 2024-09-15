@@ -157,7 +157,13 @@
 }
 
 .example__slider-before {
-  background-image: linear-gradient(#ffffff 0% 29%, #f2f2f2 28% 100%);
+  @media (min-width: $tablet-width) {
+    background-image: linear-gradient(#ffffff 0% 29%, #eaeaea 28% 100%);
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: linear-gradient(#ffffff 0% 29%, #f2f2f2 28% 100%);
+  }
 }
 
 .example__slider-control-wrapper {

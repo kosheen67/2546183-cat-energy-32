@@ -50,3 +50,15 @@
     text-align: right;
   }
 }
+
+.content-wrapper__address br {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}

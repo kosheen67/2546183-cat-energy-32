@@ -10,7 +10,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 153px;
-    width: 629px;
+    width: 708px;
     position: relative;
     margin-bottom: 47px;
   }
@@ -128,13 +128,14 @@
 
 .features-list__content {
   margin-bottom: 0;
+  margin-left: 80px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
     margin-top: 162px;
     margin-left: 0;
-    min-width: 242px;
+    min-width: 240px;
     position: relative;
     z-index: 1;
   }

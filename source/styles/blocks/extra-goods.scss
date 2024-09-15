@@ -76,6 +76,12 @@
   }
 }
 
+.extra-goods__item:last-child {
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+  }
+}
+
 .extra-goods__item:first-child::before {
   content: "";
   display: block;

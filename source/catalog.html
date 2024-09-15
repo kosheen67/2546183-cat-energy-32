@@ -10,6 +10,7 @@
   <link rel="icon" href="favicons/32.svg" type="image/svg+xml">
   <link rel="apple-icon" href="favicons/apple-icon-180x180">
   <link rel="manifest" href="manifest.webmanifest">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=b741650d-aeca-472d-a761-ce8550b60bb1&lang=ru_RU" defer></script>
 </head>
 
 <body class="page__body">
@@ -455,11 +456,11 @@
       <div class="location__content-wrapper content-wrapper location__catalog">
         <p class="content-wrapper__header">Приглашаем<br> к сотрудничеству дилеров!</p>
         <p class="content-wrapper__address">ул. Большая
-          Конюшенная, д. 19/8
-          Санкт-Петербург</p>
+          Конюшенная, д. 19/8<br>
+          Санкт-Петербург
+        </p>
       </div>
-      <div class="location__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7994.412650147547!2d30.312747684498085!3d59.93872684737757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1725978090532!5m2!1sru!2sru" width="320" height="362" title="Офис компании Cat Energy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="location__map" id="map">
         <picture>
           <source width="113" height="106" type="image/jpeg" media="(min-width: 768px)" srcset="images/mappin-tablet-desktop@1x.png 1x, images/mappin-tablet-desktop@2x.png 2x">
           <img class="location__mappin-image" src="images/mappin-mobile@1x.png" srcset="images/mappin-mobile@2x.png" width="57" height="53" alt="Отметка на карте логотипом">

@@ -63,28 +63,13 @@
   }
 }
 
-.location__map iframe {
-  border: none;
-  display: block;
-
-  @media (min-width: $tablet-width) {
-    width: 768px;
-    height: 400px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
-  }
-}
-
 .location__mappin-image {
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 
   @media (min-width: $desktop-width) {
     top: 131px;

@@ -14,9 +14,18 @@
     border: none;
     margin-bottom: 32px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    gap: 80px;
+  }
 }
 
 .catalog-list__card {
   background-color: #ffffff;
   padding-top: 20px;
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
 }
