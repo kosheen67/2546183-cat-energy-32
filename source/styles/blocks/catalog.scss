@@ -1,5 +1,7 @@
 .catalog {
-  background-color: #ffffff;
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+  }
 }
 
 .catalog__list {

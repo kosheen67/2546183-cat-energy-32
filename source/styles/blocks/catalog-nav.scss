@@ -1,0 +1,34 @@
+.catalog-nav {
+  background-color: transparent;
+}
+
+.catalog-nav__wrapper {
+  background-color: transparent;
+}
+
+.catalog-nav__list {
+  background-color: transparent;
+}
+
+.catalog-nav__item {
+  background-color: transparent;
+}
+
+.catalog-nav__item--current::after {
+  @media (min-width: $desktop-width) {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $basic-green;
+  }
+}
+
+
+.catalog-nav__item-link {
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+  }
+}
