@@ -43,6 +43,18 @@
   }
 }
 
+.header-logo__wrapper:hover {
+  @media (min-width: $desktop-width) {
+    opacity: 80%;
+  }
+}
+
+.header-logo__wrapper:active {
+  @media (min-width: $desktop-width) {
+    opacity: 60%;
+  }
+}
+
 .header-logo__link {
   display: flex;
   justify-content: space-between;

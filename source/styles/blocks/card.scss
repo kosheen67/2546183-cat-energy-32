@@ -210,6 +210,16 @@
   }
 }
 
+.card .button--primary:hover {
+  background-color: #5eaa2f;
+  cursor: pointer;
+}
+
+.card .button--primary:active {
+  background-color: #5eaa2f;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .card__more-products {
   margin: 0 auto;
   text-align: center;
@@ -289,4 +299,12 @@
   @media (min-width: $desktop-width) {
     padding: 10px 40px;
   }
+}
+
+.card__more-products-link:hover {
+  background-color: #ebebeb;
+}
+
+.card__more-products-link:active {
+  background-color: #ebebeb;
 }

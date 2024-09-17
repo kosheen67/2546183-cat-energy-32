@@ -21,26 +21,26 @@
 
   <header class="main-header header-logo">
     <div class="header-logo__wrapper">
-      <a class="header-logo__link" href="#">
+      <a class="header-logo__link" href="index.html">
         <picture>
           <source media="(min-width:1440px)" srcset="images/logo-desktop.svg" width="70" height="59" type="image/svg+xml">
           <source media="(min-width:768px)" srcset="images/logo-tablet.svg" width="60" height="50" type="image/svg+xml">
           <img class="logo-image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип сайта">
         </picture>
       </a>
-      <a class="header-logo__link" href="#">
+      <a class="header-logo__link" href="index.html">
         <picture>
           <source media="(min-width:1440px)" srcset="images/logotext-top-desktop.svg" width="118" height="21" type="image/svg+xml">
           <img class="logo-text" src="images/logotext-top-mobile-tablet.svg" width="101" height="18" alt="Надпись Cat energy">
         </picture>
       </a>
-      <button class="burger" type="button">
+      <button class="burger burger--nojs" type="button">
         <span class="burger__line burger__line--closed-menu">Меню</span>
       </button>
     </div>
     <nav class="main-nav">
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list main-nav__list--closed-menu list-reset">
+        <ul class="main-nav__list main-nav__list--closed-menu   list-reset">
           <li class="main-nav__item main-nav__item--current">
             <a class="main-nav__item-link" href="#">Главная</a>
           </li>
@@ -137,9 +137,7 @@
         </dl>
         <p class="example__cost">Затраты на питание: 15 000 РУБ.</p>
       </div>
-
       <div class="example__slider-wrapper">
-
         <div class="example__before-wrapper">
           <picture>
             <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/catbefore-tablet-desktop@1x.png 1x, images/catbefore-tablet-desktop@2x.png 2x">
@@ -148,12 +146,11 @@
         </div>
 
         <div class="example__slider-control-wrapper">
-          <svg class="example__slider-control" width="40" height="256" viewBox="0 0 40 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="18" width="4" height="256" rx="2" fill="#666666" />
-            <rect x="1" y="109" width="38" height="38" rx="19" fill="white" />
-            <rect x="1" y="109" width="38" height="38" rx="19" stroke="#666666" stroke-width="2" />
-            <path d="M16 119L8 128L16 137V119Z" fill="#666666" />
-            <path d="M32 128L24 119V137L32 128Z" fill="#666666" />
+          <svg class="example__slider-control" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="38" height="38" rx="19" fill="white" />
+            <rect x="1" y="1" width="38" height="38" rx="19" stroke="#666666" stroke-width="2" />
+            <path d="M16 11L8 20L16 29V11Z" fill="#666666" />
+            <path d="M32 20L24 11V29L32 20Z" fill="#666666" />
           </svg>
         </div>
 

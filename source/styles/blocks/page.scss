@@ -1,12 +1,11 @@
 .page {
   overflow-x: hidden;
-  background-color: transparent;
+  background-color:lightblue;
 }
 
 .page__body {
-  width: 320px;
-  margin: 0 auto;
   background-color: transparent;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
     min-width: 768px;

@@ -31,5 +31,13 @@
 }
 
 .socials-list__link {
-  background: transparent;
+  fill: #666666;
+}
+
+.socials-list__link:hover {
+  fill: $basic-green;
+}
+
+.socials-list__link:active {
+  fill: rgba(104, 183, 56, 0.6);
 }

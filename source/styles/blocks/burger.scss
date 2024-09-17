@@ -10,6 +10,12 @@
   }
 }
 
+.burger--nojs {
+  @media (min-width: $mobile-width) {
+    display: none;
+  }
+}
+
 .burger__line--closed-menu {
   display: block;
   width: 24px;

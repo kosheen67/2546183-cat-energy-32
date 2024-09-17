@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
   width: 280px;
-  margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
@@ -30,16 +29,19 @@
   margin: 0;
 }
 
+.developer__text:active {
+  opacity: 30%;
+}
+
 .developer__logo {
   display: block;
 }
 
 .developer__logo:hover {
   fill: #68b738;
-  color: #68b738;
+  cursor: pointer;
 }
 
 .developer__logo:active {
   fill: rgba(104, 183, 56, 0.3);
-  color: rgba(104, 183, 56, 0.3);
 }

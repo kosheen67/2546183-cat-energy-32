@@ -156,9 +156,11 @@
 }
 
 .programs-list__arrow:hover {
-  width: 32px;
+  transform: scaleX(133%);
 }
 
 .programs-list__arrow:active {
-  fill: rgba(0, 0, 0, 0.25);
+  transform: scaleX(133%);
+  color: rgba(0, 0, 0, 0.3);
+  fill: rgba(0, 0, 0, 0.3);
 }

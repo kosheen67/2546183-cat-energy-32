@@ -1,5 +1,6 @@
 .programs {
   position: relative;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 45px;
@@ -119,4 +120,13 @@
     left: 0;
     margin-bottom: 280px;
   }
+}
+
+.programs__link:hover {
+  background-color: #5eaa2f;
+}
+
+.programs__link:active {
+  background-color: #5eaa2f;
+  color: rgba(255, 255, 255, 0.3);
 }
