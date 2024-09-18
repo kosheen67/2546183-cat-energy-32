@@ -6,13 +6,12 @@
   @media (min-width: $tablet-width) {
     justify-content: space-between;
     padding: 60px 70px;
-    width: 628px;
+    width: 768px;
     margin: 0;
   }
 
   @media (min-width: $desktop-width) {
     width: 407px;
-    height: 79px;
     padding: 60px 78px 80px;
   }
 }
@@ -32,6 +31,7 @@
     line-height: 26px;
     color: #111111;
     width: 163px;
+    padding: 60px 70px;
   }
 }
 
@@ -48,6 +48,8 @@
     min-width: 157px;
     font-size: 16px;
     text-align: right;
+    padding-top: 60px;
+    padding-right: 70px;
   }
 }
 

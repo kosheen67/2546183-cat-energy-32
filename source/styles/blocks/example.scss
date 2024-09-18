@@ -1,15 +1,25 @@
 .example {
-  background-color: #eaeaea;
-  padding: 25px 20px 0;
-  margin: 0;
+  @media (min-width: $mobile-width) {
+    background-color: #eaeaea;
+    padding: 25px 20px 0;
+    margin: 0;
+    width: 100vw;
+  }
 
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
     padding: 0;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     position: relative;
+  }
+}
+
+.example__block-wrapper {
+  @media (min-width: $mobile-width) {
+    width: 280px;
   }
 }
 
@@ -21,14 +31,14 @@
   @media (min-width: $tablet-width) {
     content: "";
     display: block;
-    width: 768px;
+    width: 100vw;
     height: 462px;
     background-color: #eaeaea;
     margin-top: -368px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    width: 100vw;
     height: 462px;
     margin-top: -440px;
     background-color: #f2f2f2;
@@ -53,7 +63,8 @@
   @media (min-width: $desktop-width) {
     margin-left: 110px;
     padding: 0;
-    margin-bottom: 146px;
+    margin-bottom: 180px;
+    min-width: 325px;
   }
 }
 
@@ -125,6 +136,7 @@
     text-align: left;
     width: 436px;
     margin: 0;
+    margin-left: 110px;
   }
 }
 
@@ -144,7 +156,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 0;
-    right: 110px;
+    left: 770px;
   }
 }
 
@@ -162,11 +174,11 @@
 
 .example__slider-before {
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(#ffffff 0% 29%, #eaeaea 28% 100%);
+    background-image: linear-gradient(#ffffff 0% 29%, #eaeaea 29% 100%);
   }
 
   @media (min-width: $desktop-width) {
-    background-image: linear-gradient(#ffffff 0% 29%, #f2f2f2 28% 100%);
+    background-image: linear-gradient(#ffffff 0% 22%, #f2f2f2 22% 100%);
   }
 }
 

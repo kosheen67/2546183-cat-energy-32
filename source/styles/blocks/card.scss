@@ -41,7 +41,7 @@
     background-image: url("../../icons/plus-tablet-desktop.svg");
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     background-image: url("../../icons/plus-tablet-desktop.svg");
     width: 245px;
     background-position: 50% 40px;
@@ -55,13 +55,12 @@
   padding: 0 20px;
 
   @media (min-width: $tablet-width) {
-    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     position: relative;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     width: 205px;
     height: 430px;
   }
@@ -133,7 +132,7 @@
     margin: 125px auto 20px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     margin-top: 72px;
   }
 }
