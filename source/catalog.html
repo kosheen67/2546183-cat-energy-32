@@ -16,7 +16,7 @@
 <body class="page__body">
 
   <!-- Заголовок -->
-  <header class="catalog-header header-logo">
+  <header class="main-header header-logo">
     <div class="header-logo__wrapper">
       <a class="header-logo__link" href="index.html">
         <picture>
@@ -31,21 +31,21 @@
           <img class="logo-text" src="images/logotext-top-mobile-tablet.svg" width="101" height="18" alt="Надпись Cat energy">
         </picture>
       </a>
-      <button class="burger" type="button">
-        <span class="burger__line burger__line--closed-menu">Меню</span>
-      </button>
     </div>
-    <nav class="main-nav catalog-nav">
-      <div class="catalog-nav__wrapper">
-        <ul class="catalog-nav__list catalog-nav__list--closed-menu catalog-nav__list--nojs list-reset">
-          <li class="catalog-nav__item">
-            <a class="catalog-nav__item-link" href="index.html">Главная</a>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list main-nav__catalog-list list-reset">
+          <li class="main-nav__item">
+            <a class="main-nav__item-link" href="index.html">Главная</a>
           </li>
-          <li class="catalog-nav__item catalog-nav__item--current">
-            <a class="catalog-nav__item-link" href="#">Каталог продукции</a>
+          <li class="main-nav__item main-nav__item--current">
+            <a class="main-nav__item-link" href="catalog.html">Каталог продукции</a>
           </li>
-          <li class="catalog-nav__item">
-            <a class="catalog-nav__item-link" href="#">Программы</a>
+          <li class="main-nav__item">
+            <a class="main-nav__item-link" href="programs.html">Подбор программы</a>
           </li>
         </ul>
       </div>

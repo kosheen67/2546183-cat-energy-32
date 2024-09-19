@@ -22,7 +22,8 @@
 
 .header-logo__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap:56px;
   align-items: center;
   padding: 13px 20px 0;
   margin-bottom: 15px;
@@ -33,6 +34,7 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    gap: 0;
     align-items: center;
     vertical-align: center;
     margin-bottom: 0;
