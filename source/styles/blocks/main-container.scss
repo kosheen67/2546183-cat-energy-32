@@ -1,3 +1,7 @@
 .main-container {
   background-color: #ffffff;
+
+  @media (min-width: $desktop-width) {
+    width: 100vw;
+  }
 }

@@ -124,6 +124,25 @@
   }
 }
 
+.programs-list__link-wrapper:active {
+  .programs-list__link {
+    color: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+  }
+
+  .programs-list__arrow line {
+    stroke: rgba(0, 0, 0, 0.25);
+  }
+
+  .programs-list__arrow path {
+    fill: rgba(0, 0, 0, 0.25);
+  }
+
+  .programs-list__arrow {
+    transform: scaleX(133%);
+  }
+}
+
 .programs-list__link {
   color: #000000;
   font-family: "Oswald", sans-serif;
@@ -140,27 +159,36 @@
   }
 }
 
-.programs-list__link:active {
-  color: rgba(0, 0, 0, 0.25);
-  text-decoration: none;
-}
-
 .programs-list__header--gaining-weight {
   background: transparent;
 }
 
+.programs-list__link-svg {
+  position: relative;
+  width: 28px;
+  height: 12px;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 12px;
+}
+
 .programs-list__arrow {
-  margin-left: 21px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
   width: 24px;
-  text-align: center;
+  height: 100%;
+}
+
+.programs-list__arrow line {
+  stroke: #000000;
+}
+
+.programs-list__arrow path {
+  fill: #000000;
 }
 
 .programs-list__arrow:hover {
   transform: scaleX(133%);
 }
 
-.programs-list__arrow:active {
-  transform: scaleX(133%);
-  color: rgba(0, 0, 0, 0.3);
-  fill: rgba(0, 0, 0, 0.3);
-}

@@ -14,8 +14,24 @@
   }
 }
 
+.developer:hover {
+  .developer__logo path {
+    fill: #68b738;
+    cursor: pointer;
+  }
+}
+
+.developer:active {
+  .developer__text {
+    opacity: 30%;
+  }
+
+  .developer__logo path {
+    fill: rgba(104, 183, 56, 0.3);
+  }
+}
+
 .developer__link {
-  background-color: $basic-grey;
   text-decoration: none;
   display: block;
 }
@@ -29,19 +45,10 @@
   margin: 0;
 }
 
-.developer__text:active {
-  opacity: 30%;
-}
-
 .developer__logo {
   display: block;
 }
 
-.developer__logo:hover {
-  fill: #68b738;
-  cursor: pointer;
-}
-
-.developer__logo:active {
-  fill: rgba(104, 183, 56, 0.3);
+.developer__logo path {
+  fill: #666666;
 }

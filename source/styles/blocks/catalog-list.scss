@@ -6,6 +6,7 @@
   border-bottom: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
+    width: 708px;
     flex-direction: row;
     align-items: flex-end;
     flex-wrap: wrap;

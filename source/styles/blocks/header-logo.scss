@@ -1,11 +1,13 @@
 .header-logo {
+  margin: 0 auto;
   margin-bottom: 27px;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
+    margin: 0 auto;
     margin-top: 25px;
-    margin-left: 30px;
     margin-bottom: 65px;
-    width: 704px;
+    width: 705px;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +25,7 @@
 .header-logo__wrapper {
   display: flex;
   justify-content: flex-start;
-  gap:56px;
+  gap: 56px;
   align-items: center;
   padding: 13px 20px 0;
   margin-bottom: 15px;

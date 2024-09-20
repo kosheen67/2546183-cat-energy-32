@@ -1,5 +1,5 @@
 .extra-goods {
-
+margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     border-top: 2px solid $basic-green;
@@ -194,6 +194,7 @@
   padding-right: 20px;
   display: flex;
   justify-content: space-between;
+  margin: 13px 0 15px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -221,12 +222,13 @@
 }
 
 .extra-goods__offer {
+  width: 708px;
   height: 290px;
   background-image: url("../../images/catgift-mobile@1x.jpg");
   background-size: 280px 290px;
   background-repeat: no-repeat;
   position: relative;
-  margin: 35px 20px 0;
+  margin: 35px auto 0;
   display: flex;
   flex-direction: column-reverse;
 

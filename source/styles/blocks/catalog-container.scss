@@ -1,5 +1,10 @@
 .catalog-container {
   background-color: #ffffff;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+  }
 }
 
 .catalog-container__header {
@@ -17,6 +22,7 @@
     border: none;
     font-size: 60px;
     line-height: 60px;
+    margin: 0 auto;
     margin-bottom: 165px;
     padding: 0 30px;
   }

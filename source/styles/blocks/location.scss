@@ -1,23 +1,28 @@
 .location {
+  margin: 0 auto;
+  width: 100vw;
   margin-top: 15px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
+    margin: 0 auto;
     position: relative;
   }
 }
 
 .location__wrapper {
   @media (min-width: $mobile-width) {
+    margin: 0 auto;
     width: 100vw;
     background-color: #f2f2f2;
   }
 
   @media (min-width: $tablet-width) {
-    width: 100vw;
+    margin: 0 auto;
+    width: 100%;
     background-color: #f2f2f2;
   }
 }
@@ -44,11 +49,12 @@
 
 .location__map {
   background-image: url("../../images/map-mobile@2x.jpg");
-  background-size: 320px 362px;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 362px;
   position: relative;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     background-image: url("../../images/map-tablet@2x.jpg");
@@ -65,11 +71,16 @@
   }
 }
 
+.location__map picture {
+  display: block;
+  margin: 0 auto;
+}
+
 .location__mappin-image {
   display: block;
   position: absolute;
-  top: 165px;
-  left: 160px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
 
