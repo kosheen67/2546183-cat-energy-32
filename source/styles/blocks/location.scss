@@ -22,16 +22,20 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;
-    width: 100%;
+    width: 100vw;
     background-color: #f2f2f2;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    width: 1440px;
   }
 }
 
 .location__content-wrapper {
   @media (min-width: $tablet-width) {
-    margin-left: 0;
     padding: 0;
-    width: 768px;
+    width: 628px;
   }
 
   @media (min-width: $desktop-width) {
@@ -42,7 +46,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 95px;
-    left: 110px;
+    left: 13%;
     z-index: 5;
   }
 }
@@ -85,12 +89,14 @@
   z-index: 2;
 
   @media (min-width: $tablet-width) {
-    top: 200px;
-    left: 390px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   @media (min-width: $desktop-width) {
-    top: 185px;
-    left: 965px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
   }
 }

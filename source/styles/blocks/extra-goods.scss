@@ -1,12 +1,14 @@
 .extra-goods {
-margin: 0 auto;
+  width: 320px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     border-top: 2px solid $basic-green;
+    width: 708px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 110px;
+    width: 1220px;
   }
 }
 
@@ -222,7 +224,7 @@ margin: 0 auto;
 }
 
 .extra-goods__offer {
-  width: 708px;
+  width: 280px;
   height: 290px;
   background-image: url("../../images/catgift-mobile@1x.jpg");
   background-size: 280px 290px;
@@ -259,7 +261,7 @@ margin: 0 auto;
 
 .extra-goods__offer::before {
   content: "";
-  width: 100%;
+  width: 280px;
   height: 290px;
   background-color: rgba(104, 183, 56, 0.85);
   position: absolute;
