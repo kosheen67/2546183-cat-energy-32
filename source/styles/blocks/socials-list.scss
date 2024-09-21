@@ -3,13 +3,14 @@
   justify-content: center;
   gap: 14px 24px;
   flex-wrap: wrap;
-  min-width: 132px;
+  width: 280px;
   margin: 0 auto;
   padding: 0;
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    margin-left: 139px;
+    width: 132px;
+    margin-left: 40px;
   }
 }
 

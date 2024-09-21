@@ -1,14 +1,14 @@
 .features {
   background-color: #ffffff;
-  padding: 20px 20px 49px;
+  padding: 23px 20px 49px;
   width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    padding: 0 109px 0 30px;
+    padding: 0;
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 45px;
-    width: 708px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
@@ -30,6 +30,8 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
-    margin-bottom: 32px;
+    margin: 0;
+    margin-bottom: 21px;
+    margin-left: 30px;
   }
 }

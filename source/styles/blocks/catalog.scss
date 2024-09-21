@@ -1,10 +1,10 @@
 .catalog {
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
 
 
   @media (min-width: $tablet-width) {
-    width: 708px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {

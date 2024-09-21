@@ -10,10 +10,10 @@
     flex-direction: row;
     align-items: flex-end;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 145px 60px;
     padding: 0 30px;
     border: none;
-    margin-bottom: 32px;
+    margin-bottom: 89px;
   }
 
   @media (min-width: $desktop-width) {
@@ -26,7 +26,6 @@
 
 .catalog-list__card {
   background-color: #ffffff;
-  padding-top: 20px;
 
   @media (min-width: $desktop-width) {
     padding: 0;

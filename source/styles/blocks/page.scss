@@ -1,12 +1,18 @@
 .page {
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .page__body {
-  background-color: transparent;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 
   @media (min-width: $tablet-width) {
     padding: 0;
+    background-color: pink;
   }
 
   @media (min-width: $desktop-width) {

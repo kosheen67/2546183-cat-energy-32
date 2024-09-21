@@ -1,7 +1,7 @@
 .catalog-content-wrapper {
   display: flex;
   width: 280px;
-  padding: 26px 20px;
+  padding: 26px 0;
   background-color: #f2f2f2;
   margin: 0 auto;
 
@@ -45,6 +45,14 @@
     width: 163px;
     padding: 0;
     margin-right: 86px;
+  }
+}
+
+.catalog-content-wrapper__address-block {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 

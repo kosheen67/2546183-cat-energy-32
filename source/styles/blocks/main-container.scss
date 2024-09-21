@@ -1,5 +1,6 @@
 .main-container {
-  background-color: #ffffff;
+  margin-top: 27px;
+  flex-grow: 1;
 
   @media (min-width: $desktop-width) {
     background-color: transparent;

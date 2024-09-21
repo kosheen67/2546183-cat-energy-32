@@ -9,10 +9,11 @@
   @media (min-width: $tablet-width) {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 57px 153px;
+    gap: 38px 153px;
     width: 708px;
     position: relative;
     margin-bottom: 47px;
+    margin-left: 30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -39,6 +40,10 @@
 .features-list__item--nutrition {
   background-image: url("../../icons/icon-nutrition-mobile.svg");
   margin-right: 17px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 0;
+  }
 }
 
 .features-list__item--nutrition::after {
@@ -71,7 +76,7 @@
     color: $basic-grey;
     position: absolute;
     top: 10px;
-    right: 6px;
+    right: 79px;
     z-index: 0;
   }
 
@@ -105,6 +110,10 @@
 
 .features-list__item--time {
   background-image: url("../../icons/icon-time-mobile.svg");
+
+  @media (min-width: $tablet-width) {
+    width: 242px;
+  }
 }
 
 .features-list__item--time::after {
@@ -117,7 +126,7 @@
     color: $basic-grey;
     position: absolute;
     bottom: -10px;
-    right: 0;
+    right: 76px;
     z-index: 0;
   }
 

@@ -1,5 +1,5 @@
 .definition-list {
-  width: 280px;
+  width: 271px;
   display: flex;
   justify-content: space-between;
   gap: 32px;
@@ -7,7 +7,8 @@
 
   @media (min-width: $tablet-width) {
     gap: 43px;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-bottom: 40px;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,6 +23,7 @@
   border-radius: 5px;
   text-align: center;
   position: relative;
+  margin-left: -11px;
 
   @media (min-width: $tablet-width) {
     min-width: 162px;
@@ -31,6 +33,10 @@
   }
 }
 
+.definition-list__wrapper:nth-child(2) {
+  margin-left: 0;
+}
+
 .definition-list__term {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -38,7 +44,7 @@
   line-height: 24px;
   color: #000000;
   display: block;
-  margin: 14px auto 0;
+  margin: 14px 0 0 -3px;
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
@@ -66,7 +72,7 @@
     font-size: 14px;
     line-height: 14px;
     background-color: #ffffff;
-    top: 62px;
+    top: 60px;
     left: 15px;
     min-width: 125px;
     padding-left: 4px;

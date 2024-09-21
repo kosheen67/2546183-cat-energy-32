@@ -1,17 +1,17 @@
 .header-logo {
   margin: 0 auto;
-  margin-bottom: 27px;
   width: 320px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 65px;
     width: 705px;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 18px auto 65px;
+
+    outline: 5px solid orange;
+    outline-offset: -5px;
   }
 
   @media (min-width: $desktop-width) {

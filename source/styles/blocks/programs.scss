@@ -1,6 +1,7 @@
 .programs {
   position: relative;
   width: 100%;
+  margin-top: -28px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 45px;
@@ -25,10 +26,11 @@
 
   @media (min-width: $desktop-width) {
     display: block;
+    width: 50%;
     height: 694px;
     top: -224px;
-    left: 664px;
-    background-image: linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px);
+    left: 48.3%;
+    background: linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px), url("../../images/index-background-desktop@1x.jpg");
   }
 }
 
@@ -52,10 +54,8 @@
     text-align: left;
     width: 420px;
     min-height: 120px;
-    margin: 0;
-    margin-left: 90px;
-    margin-bottom: 40px;
     padding: 0;
+    margin: 0 0 40px 120px;
   }
 
   @media (min-width: $desktop-width) {
@@ -80,9 +80,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    margin: 0;
-    margin-left: 90px;
-    margin-bottom: 50px;
+    margin: 0 0 50px 120px;
     text-align: left;
   }
 
@@ -100,7 +98,7 @@
   @media (min-width: $tablet-width) {
     width: 709px;
     height: 609px;
-    margin: -21px 10px;
+    margin-top: -30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -131,8 +129,8 @@
     font-weight: 400;
     line-height: 26px;
     position: absolute;
-    top: 225px;
-    left: 90px;
+    top: 229px;
+    left: 120px;
     z-index: 4;
   }
 

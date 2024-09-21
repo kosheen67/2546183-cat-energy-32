@@ -7,7 +7,6 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 0;
-    margin-left: 105px;
     justify-content: flex-start;
     max-width: 168px;
     gap: 23px;
@@ -34,6 +33,10 @@
 .developer__link {
   text-decoration: none;
   display: block;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 2px;
+  }
 }
 
 .developer__text {

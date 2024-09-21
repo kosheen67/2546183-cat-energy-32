@@ -32,9 +32,19 @@
     line-height: 26px;
     color: #111111;
     width: 163px;
-    padding: 60px 70px;
+    margin-top: 4px;
   }
 }
+
+
+.content-wrapper__address-block {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 
 .content-wrapper__address {
   font-family: "Lato", sans-serif;
@@ -49,8 +59,6 @@
     min-width: 157px;
     font-size: 16px;
     text-align: right;
-    padding-top: 60px;
-    padding-right: 70px;
   }
 
   @media (min-width: $desktop-width) {
