@@ -132,7 +132,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 72px;
+    margin-top: 69px;
   }
 }
 
@@ -180,6 +180,11 @@
     margin-bottom: 7px;
     border-bottom: 1px solid #cdcdcd;
     width: 248px;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 169px;
+    min-height: 24px;
   }
 }
 
@@ -269,9 +274,7 @@
 
   @media (min-width: $desktop-width) {
     width: 170px;
-    margin: 0 auto;
-    margin-bottom: 26px;
-    margin-top: 15px;
+    margin: -11px auto 26px;
   }
 }
 
@@ -293,7 +296,7 @@
   @media (min-width: $desktop-width) {
     width: 170px;
     margin: 0 auto;
-    margin-bottom: 109px;
+    margin-bottom: 100px;
   }
 }
 

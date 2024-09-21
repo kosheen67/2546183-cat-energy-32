@@ -9,16 +9,13 @@
     justify-content: space-between;
     align-items: flex-end;
     margin: 18px auto 65px;
-
-    outline: 5px solid orange;
-    outline-offset: -5px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1220px;
-    margin: 0 auto;
     margin-bottom: 110px;
     justify-content: flex-start;
+    margin: 0 auto 82px;
   }
 }
 

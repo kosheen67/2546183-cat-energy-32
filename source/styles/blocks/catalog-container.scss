@@ -8,6 +8,11 @@
   @media (min-width: $tablet-width) {
     width: 100%;
   }
+
+  @media (min-width: $tablet-width) {
+    width: 1440px;
+    margin: 0 auto;
+  }
 }
 
 .catalog-container__header {
@@ -35,5 +40,8 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
+    margin-left: 0;
+    padding-left: 110px;
+    margin-top: -6px;
   }
 }

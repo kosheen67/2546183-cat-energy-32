@@ -19,6 +19,8 @@
   @media (min-width: $desktop-width) {
     width: 1330px;
     gap: 77px;
+    margin-left: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -44,6 +46,10 @@
   @media (min-width: $tablet-width) {
     margin-right: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 17px;
+  }
 }
 
 .features-list__item--nutrition::after {
@@ -64,6 +70,10 @@
 .features-list__item--form {
   background-image: url("../../icons/icon-form-mobile.svg");
   margin-right: 2px;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 20px;
+  }
 }
 
 .features-list__item--form::after {
@@ -87,6 +97,10 @@
 
 .features-list__item--meal {
   background-image: url("../../icons/icon-meal-mobile.svg");
+
+  @media (min-width: $desktop-width) {
+    margin-right: 20px;
+  }
 }
 
 .features-list__item--meal::after {
@@ -104,7 +118,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    left: 743px;
+    left: 764px;
   }
 }
 
@@ -131,7 +145,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    left: 1055px;
+    left: 1088px;
   }
 }
 

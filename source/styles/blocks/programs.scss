@@ -29,7 +29,7 @@
     width: 50%;
     height: 694px;
     top: -224px;
-    left: 48.3%;
+    left: 50%;
     background: linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px), url("../../images/index-background-desktop@1x.jpg");
   }
 }
@@ -59,7 +59,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 60px;
+    margin-left: 134px;
   }
 }
 
@@ -85,7 +85,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 60px;
+    margin-left: 135px;
   }
 }
 
@@ -104,7 +104,7 @@
   @media (min-width: $desktop-width) {
     width: 552px;
     height: 499px;
-    margin: -315px 425px;
+    margin: -310px 501px;
   }
 }
 
@@ -137,7 +137,8 @@
   @media (min-width: $desktop-width) {
     margin-left: 60px;
     left: 0;
-    margin-bottom: 280px;
+    margin-left: 135px;
+    margin-top: 6px;
   }
 }
 

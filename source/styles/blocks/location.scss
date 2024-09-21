@@ -24,6 +24,10 @@
     width: 628px;
     padding: 60px 70px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
 }
 
 .location__wrapper {
@@ -50,15 +54,13 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 565px;
     background-color: #ffffff;
-  }
-
-  @media (min-width: $desktop-width) {
     position: absolute;
-    top: 95px;
-    left: 13%;
+    top: 92px;
+    left: -297px;
     z-index: 5;
+    width: 407px;
+    padding: 60px 79px;
   }
 }
 
@@ -107,8 +109,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: 50%;
-    left: 60%;
+    top: 46%;
+    left: 61.5%;
     transform: translate(-50%, -50%);
   }
 }
