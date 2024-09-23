@@ -1,12 +1,26 @@
 .card {
-  border-top: 1px solid #ebebeb;
+  // border-top: 1px solid #ebebeb;
   margin: 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -50vw;
+    width: 100vw;
+    background-color: #ebebeb;
+    height: 1px;
+    box-shadow: 100vw 0px 0px 0px #ebebeb;}
 
   @media (min-width: $tablet-width) {
     border: none;
     width: 324px;
     background-color: #f2f2f2;
     margin-right: 0;
+
+    &::before {
+      content: none;
+    }
   }
 
   @media (min-width: $desktop-width) {
