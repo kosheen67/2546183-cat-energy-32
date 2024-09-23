@@ -7,7 +7,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
+    width: 100%;
   }
 }
 
@@ -37,6 +37,11 @@
     width: 708px;
     margin: 0 auto;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+  }
 }
 
 .extra-goods__wrapper {
@@ -54,10 +59,6 @@
   gap: 40px;
   width: 100%;
   position: relative;
-
-  @media (min-width: $tablet-width) {
-
-  }
 }
 
 .extra-goods__header {
@@ -85,8 +86,8 @@
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 67px;
-    margin-left: 60px;
+    margin-bottom: 78px;
+    margin-left: -39px;
   }
 }
 
@@ -102,11 +103,13 @@
   }
 
   @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
     border: none;
     width: 898px;
     min-height: 288px;
     margin: 0;
-    margin-bottom: 96px;
+    margin-bottom: 115px;
   }
 }
 
@@ -117,7 +120,7 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
-    height: 139px;
+    min-height: 139px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,9 +132,9 @@
 
   @media (min-width: $desktop-width) {
     width: 894px;
-    min-height: 40px;
+    min-height: 72px;
     display: flex;
-    padding: 18px 20px;
+    justify-content: flex-start;
   }
 }
 
@@ -141,6 +144,22 @@
     min-width: 160px;
     margin-top: 16px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+  }
+}
+
+.extra-goods__item:nth-child(2) .extra-goods__main .extra-goods__price {
+  margin-top: -1px;
+  margin-left: -9px;
+  margin-right: 7px;
+}
+
+.extra-goods__item:nth-child(3) .extra-goods__title {
+  @media (min-width: $desktop-width) {
+    margin-top: -7px;
+  }
 }
 
 .extra-goods__item:nth-child(3) .extra-goods__main {
@@ -148,6 +167,10 @@
     margin-right: 45px;
     min-width: 120px;
     margin-top: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
   }
 }
 
@@ -201,8 +224,9 @@
 
   @media (min-width: $desktop-width) {
     padding: 10px 20px;
-    width: 244px;
+    width: 200px;
     margin: 0;
+    display: block;
   }
 }
 
@@ -237,6 +261,8 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
+    width: 161px;
+    margin-right: 164px;
   }
 }
 
@@ -262,6 +288,8 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
+    margin-right: 45px;
+    display: flex;
   }
 }
 
@@ -271,10 +299,19 @@
   @media (min-width: $tablet-width) {
     margin-right: 49px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 145px;
+  }
 }
 
 .extra-goods__price {
   margin: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 90px;
+    text-align: right;
+  }
 }
 
 .extra-goods__offer {
