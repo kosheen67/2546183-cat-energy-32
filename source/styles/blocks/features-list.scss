@@ -7,8 +7,7 @@
   margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 38px 153px;
     width: 708px;
     position: relative;
