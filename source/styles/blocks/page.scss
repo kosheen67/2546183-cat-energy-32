@@ -1,18 +1,23 @@
 .page {
-  background-color: $basic-grey;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .page__body {
-  width: 320px;
-  margin: 0 auto;
-  background-color: #ffffff;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 
   @media (min-width: $tablet-width) {
-    min-width: 768px;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {
     min-width: 1440px;
+    background-color: transparent;
   }
 }

@@ -1,52 +1,202 @@
 .example {
-  background-color: #eaeaea;
-  padding: 25px 20px 0;
-  margin: 0;
+  @media (min-width: $mobile-width) {
+    background-color: #eaeaea;
+    padding: 25px 0 0;
+    width: 100%;
+    min-height: 633px;
+    margin: -5px 0 0;
+  }
 
   @media (min-width: $tablet-width) {
+    width: 100%;
     background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.example__block-wrapper {
+  @media (min-width: $mobile-width) {
+    width: 280px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    display: flex;
+  }
+}
+
+.example::after {
+  @media (min-width: $tablet-width) {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 462px;
+    background-color: #eaeaea;
+    margin-top: -368px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100vw;
+    height: 462px;
+    margin-top: -468px;
+    background-color: #f2f2f2;
   }
 }
 
 .example__header {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
-  margin: 0 0 40px;
+  margin: 0 0 40px 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
+    margin-bottom: 60px;
+    margin-top: 57px;
+    margin-left: 0;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    padding: 0;
+    min-width: 325px;
+    margin-bottom: 149px;
   }
 }
 
 .example__content {
   margin-bottom: 20px;
+  margin-left: 20px;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    margin-bottom: 55px;
+    padding: 0 30px;
+    margin-left: 0;
+  }
 
   @media (min-width: $desktop-width) {
     width: 436px;
+    margin-left: 110px;
+    padding: 0;
   }
 }
 
 .example__wrapper {
   background-color: transparent;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    width: 708px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 12px;
+    margin-top: 67px;
+  }
+}
+
+.example__list-wrapper {
+  background-color: transparent;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    width: 708px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 110px;
+    padding: 0;
+  }
 }
 
 .example__list {
   margin: 0 0 40px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 55px;
+  }
+}
+
+.example__cost-wrapper {
+  @media (min-width: $mobile-width) {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 175px;
+    flex-direction: column;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 470px;
+    margin-left: 100px;
+  }
 }
 
 .example__cost {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #000000;
   text-transform: uppercase;
-  margin: 0 auto 20px;
+  margin: -8px 0 20px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    text-align: right;
+    width: 174px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 3px 0 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    width: 436px;
+    margin: 0;
+  }
 }
 
 .example__slider-wrapper {
@@ -54,10 +204,15 @@
   flex-direction: row;
   width: 280px;
   position: relative;
+  margin-left: 20px;
 
   @media (min-width: $tablet-width) {
     width: 560px;
-    margin-left: 104px;
+    margin: -14px auto 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 59px auto 0 228px;
   }
 }
 
@@ -69,42 +224,91 @@
   background-color: #eaeaea;
 
   @media (min-width: $tablet-width) {
-    background-color: #ffffff;
+    background-color: transparent;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: -2px;
   }
 }
 
 .example__slider-before {
-  background-color: transparent;
-}
-
-.example__slider-control-wrapper {
-  position: absolute;
-  z-index: 3;
-  background: transparent;
-  top: 0;
-  left: 120px;
-
   @media (min-width: $tablet-width) {
-    left: 268px;
+    background-image: linear-gradient(#ffffff 0% 29%, #eaeaea 29% 100%);
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: linear-gradient(#ffffff 0% 26%, #f2f2f2 22% 100%);
   }
 }
 
-.example__slider-control {
-  background: transparent;
+.example__slider-control-wrapper {
+  position: relative;
+  z-index: 5;
+  width: 4px;
+  height: 256px;
+  border-radius: 2px;
+  background-color: #666666;
+  margin-left: 6px;
 
   @media (min-width: $tablet-width) {
     height: 512px;
   }
 }
 
-.example__slider-control:hover {
-  stroke: #68b738;
-  fill: #68b738;
+.example__slider-control {
+  position: absolute;
+  top: 108px;
+  left: -20px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 236px;
+    left: -17px;
+  }
 }
 
-.example__slider-control:active {
-  fill: rgba(94, 170, 47, 0.6);
-  stroke: rgba(94, 170, 47, 0.6);
+.example__slider-control rect {
+  stroke: #666666;
+}
+
+.example__slider-control path {
+  fill: #666666;
+}
+
+.example__slider-control-block {
+  width: 5px;
+  margin-left: -9px;
+}
+
+.example__slider-control-block:hover {
+  .example__slider-control-wrapper {
+    background-color: $basic-green;
+    cursor: pointer;
+  }
+
+  .example__slider-control rect {
+    stroke: #68b738;
+  }
+
+  .example__slider-control path {
+    fill: #68b738;
+  }
+}
+
+
+.example__slider-control-block:active {
+  .example__slider-control-wrapper {
+    background-color: rgba(94, 170, 47, 0.6);
+  }
+
+  .example__slider-control rect {
+    stroke: rgba(94, 170, 47, 0.6);
+  }
+
+  .example__slider-control path {
+    fill: rgba(94, 170, 47, 0.6);
+  }
 }
 
 .example__after-wrapper {

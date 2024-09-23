@@ -1,5 +1,16 @@
 .catalog {
-  background-color: #ffffff;
+  width: 320px;
+  margin: 0 auto;
+
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin-bottom: 23px;
+  }
 }
 
 .catalog__list {
@@ -9,4 +20,11 @@
 
 .catalog-list__card {
   background-color: #ffffff;
+}
+
+.catalog .button--primary {
+  @media (min-width: $tablet-width) {
+    max-width: 250px;
+    margin: 0 37px 40px;
+  }
 }

@@ -1,18 +1,39 @@
-const burgerLine = document.querySelector('.burger__line');
-const navList = document.querySelector('.main-nav__list');
+const navMain = document.querySelector('.main-nav');
+const navToggle = document.querySelector('.main-nav__toggle');
 
-burgerLine.addEventListener('click', () => {
-  if (burgerLine.classList.contains('burger__line--closed-menu') & navList.classList.contains('main-nav__list--closed-menu')) {
-    burgerLine.classList.remove('burger__line--closed-menu');
-    burgerLine.classList.add('burger__line--opened-menu');
+navMain.classList.remove('main-nav--nojs');
 
-    navList.classList.remove('main-nav__list--closed-menu');
-    navList.classList.add('main-nav__list--opened-menu');
+navToggle.addEventListener('click', () => {
+  if (navMain.classList.contains('main-nav--closed')) {
+    navMain.classList.remove('main-nav--closed');
+    navMain.classList.add('main-nav--opened');
   } else {
-    burgerLine.classList.add('burger__line--closed-menu');
-    burgerLine.classList.remove('burger__line--opened-menu');
-
-    navList.classList.add('main-nav__list--closed-menu');
-    navList.classList.remove('main-nav__list--opened-menu');
+    navMain.classList.add('main-nav--closed');
+    navMain.classList.remove('main-nav--opened');
   }
+});
+
+
+/* КАРТА */
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const ymaps = window.ymaps;
+  ymaps.ready(() => {
+    const myMap = new ymaps.Map('map', {
+        center: [59.938679, 30.3230044],
+        zoom: 14,
+        controls: []
+      }),
+
+      myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'images/map-pin.png',
+        iconImageSize: [57, 53],
+        iconImageOffset: [-26, -42]
+      });
+
+    myMap.geoObjects.add(myPlacemark);
+  });
+
 });

@@ -12,23 +12,24 @@
 @import "./blocks/logo-text.scss";
 @import "./blocks/burger.scss";
 @import "./blocks/main-nav.scss";
+@import "./blocks/catalog-nav.scss";
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/main-container.scss";
 // Программы
 @import "./blocks/programs.scss";
-@import "./blocks/programs-wrapper.scss";
 @import "./blocks/programs-list.scss";
 // Характеристики
+@import "./blocks/content-basic.scss";
 @import "./blocks/features.scss";
 @import "./blocks/features-list.scss";
 @import "./blocks/list-reset.scss";
-@import "./blocks/content-basic.scss";
 // Пример
 @import "./blocks/example.scss";
 @import "./blocks/definition-list.scss";
 // Сотрудничество
-@import "./blocks/location.scss";
 @import "./blocks/content-wrapper.scss";
+@import "./blocks/location.scss";
+@import "./blocks/catalog-content-wrapper.scss";
 //Подвал
 @import "./blocks/footer.scss";
 @import "./blocks/socials-list.scss";

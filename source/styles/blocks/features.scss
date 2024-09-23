@@ -1,10 +1,26 @@
 .features {
   background-color: #ffffff;
-  padding: 20px 20px 49px;
+  padding: 23px 20px 49px;
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 45px;
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
 }
 
 .features__header {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
@@ -14,5 +30,12 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
+    margin: 0;
+    margin-bottom: 21px;
+    margin-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: -4px 0 22px;
   }
 }

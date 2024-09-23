@@ -1,55 +1,138 @@
 .location {
-  margin-top: 15px;
-}
+  width: 100%;
 
-.location__content-wrapper {
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+  }
+
   @media (min-width: $desktop-width) {
-    width: 565px;
-    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
   }
 }
 
-.location__catalog {
-  background-color: #f2f2f2;
-  padding-bottom: 26px;
+.location__block {
+  width: 100%;
+}
+
+.location__content {
+  position: relative;
+  max-width: 1220px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 628px;
+    padding: 60px 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
+}
+
+.location__wrapper {
+  @media (min-width: $mobile-width) {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+  }
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    width: 1440px;
+  }
+}
+
+.location__content-wrapper {
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    width: 628px;
+  }
 
   @media (min-width: $desktop-width) {
     background-color: #ffffff;
+    position: absolute;
+    top: 92px;
+    left: -297px;
+    z-index: 5;
+    width: 407px;
+    padding: 60px 79px;
   }
 }
 
 .location__map {
-  background-image: url("../../images/map-mobile@2x.jpg");
-  background-size: 320px 362px;
+  background-image: url("../../images/map-mobile@1x.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 320px;
+  width: 100%;
   height: 362px;
   position: relative;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    background-image: url("../../images/map-tablet@2x.jpg");
-    background-size: 768px 400px;
-    width: 768px;
+    background-image: url("../../images/map-tablet@1x.jpg");
+    background-size: cover;
+    width: 100%;
     height: 400px;
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url("../../images/map-desktop@2x.jpg");
-    background-size: 1440px 400px;
-    width: 1440px;
+    background-image: url("../../images/map-desktop@1x.jpg");
+    background-size: cover;
+    width: 100%;
     height: 400px;
+    position: static;
   }
 }
 
-.location__map iframe {
-  border: none;
+@media (min-resolution: 2dppx) {
+  .location__map {
+    background-image: url("../../images/map-mobile@2x.jpg");
+
+    @media (min-width: $tablet-width) {
+      background-image: url("../../images/map-tablet@2x.jpg");
+    }
+
+    @media (min-width: $desktop-width) {
+      background-image: url("../../images/map-desktop@2x.jpg");
+    }
+  }
+}
+
+.location__map-pin-wrapper {
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.location__map picture {
   display: block;
+  margin: 0 auto;
 }
 
 .location__mappin-image {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
+
+  @media (min-width: $tablet-width) {
+    top: 49%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 46%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+  }
 }

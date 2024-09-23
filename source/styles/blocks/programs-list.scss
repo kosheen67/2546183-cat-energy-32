@@ -5,9 +5,19 @@
   gap: 20px;
   margin-bottom: 0;
 
+  @media (min-width: $tablet-width) {
+    gap: 30px;
+    margin-top: -3px;
+    margin-bottom: 45px;
+    padding: 0 30px;
+  }
+
   @media (min-width: $desktop-width) {
     flex-direction: row;
     gap: 80px;
+    margin-bottom: 71px;
+    padding: 0 57px;
+    margin-top: 448px;
   }
 }
 
@@ -18,16 +28,21 @@
   background-size: 50px 53px;
   background-repeat: no-repeat;
   background-position: 20px 21px;
-  padding: 30px 33px 18px 20px;
+  padding: 30px 19px 18px 20px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
     min-height: 372px;
+    background-position: 404px 80px;
+    background-size: 280px 210px;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {
     width: 570px;
     min-height: 374px;
+    background-size: 100px 106px;
+    background-position: 51px 37px;
   }
 }
 
@@ -36,17 +51,43 @@
   background-image: url("../../icons/stack.svg#cat-gaining-weight-mobile");
   background-size: 67px 50px;
   background-position: 13px 25px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    min-height: 372px;
+    background-position: 406px 92px;
+    background-size: 270px 202px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    min-height: 374px;
+    background-size: 134px 100px;
+    background-position: 34px 42px;
+  }
 }
 
 .programs-list__header {
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 37px;
   text-transform: uppercase;
   background-color: $basic-grey;
   margin: 0 0 32px 70px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 75px 0 27px 53px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 214px;
+    margin-bottom: 73px;
+  }
 }
 
 .programs-list__header--loosing-weight {
@@ -55,6 +96,20 @@
 
 .programs-list__content {
   margin-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    width: 340px;
+    color: #000000;
+    margin-bottom: 52px;
+    margin-left: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 457px;
+    margin-bottom: 23px;
+  }
 }
 
 .programs-list__content-line {
@@ -62,35 +117,76 @@
   height: 1px;
   background-color: #d9d9d9;
   margin-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.programs-list__link-wrapper:active {
+  .programs-list__link {
+    color: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+  }
+
+  .programs-list__arrow line {
+    stroke: rgba(0, 0, 0, 0.25);
+  }
+
+  .programs-list__arrow path {
+    fill: rgba(0, 0, 0, 0.25);
+  }
+
+  .programs-list__arrow {
+    transform: scaleX(133%);
+  }
 }
 
 .programs-list__link {
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
   text-transform: uppercase;
   text-decoration: none;
-}
 
-.programs-list__link:active {
-  color: rgba(0, 0, 0, 0.25);
-  text-decoration: none;
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 52px;
+  }
 }
 
 .programs-list__header--gaining-weight {
   background: transparent;
 }
 
+.programs-list__link-svg {
+  position: relative;
+  width: 28px;
+  height: 12px;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
 .programs-list__arrow {
-  margin-left: 13px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 24px;
+  height: 100%;
+}
+
+.programs-list__arrow line {
+  stroke: #000000;
+}
+
+.programs-list__arrow path {
+  fill: #000000;
 }
 
 .programs-list__arrow:hover {
-  width: 32px;
-}
-
-.programs-list__arrow:active {
-  fill: rgba(0, 0, 0, 0.25);
+  transform: scaleX(133%);
 }

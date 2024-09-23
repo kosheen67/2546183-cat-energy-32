@@ -1,12 +1,17 @@
 .socials-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 14px 24px;
   flex-wrap: wrap;
-
-  min-width: 132px;
+  width: 280px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    width: 132px;
+    margin-left: 40px;
+  }
 }
 
 .socials-list::after {
@@ -26,6 +31,54 @@
   margin: 0;
 }
 
+.socials-list__item-vk:hover {
+  .socials-list__vk-image path {
+    fill: $basic-green;
+  }
+}
+
+.socials-list__item-vk:active {
+  .socials-list__vk-image path {
+    fill: rgba(104, 183, 56, 0.3);
+  }
+}
+
+.socials-list__item-youtube:hover {
+  .socials-list__youtube-image path {
+    fill: $basic-green;
+  }
+}
+
+.socials-list__item-youtube:active {
+  .socials-list__youtube-image path {
+    fill: rgba(104, 183, 56, 0.3);
+  }
+}
+
+.socials-list__item-tg:hover {
+  .socials-list__tg-image path {
+    fill: $basic-green;
+  }
+}
+
+.socials-list__item-tg:active {
+  .socials-list__tg-image path {
+    fill: rgba(104, 183, 56, 0.3);
+  }
+}
+
 .socials-list__link {
-  background: transparent;
+  display: block;
+  width: 28px;
+  min-height: 22px;
+}
+
+.socials-list__vk-image path,
+.socials-list__youtube-image path,
+.socials-list__tg-image path {
+  fill: #666666;
+}
+
+.socials-list__link:active {
+  fill: rgba(104, 183, 56, 0.3);
 }

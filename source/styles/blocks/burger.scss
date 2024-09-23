@@ -4,70 +4,8 @@
   position: relative;
   cursor: pointer;
   height: 24px;
-}
 
-.burger__line--closed-menu {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: #000000;
-  font-size: 0;
-  color: transparent;
-  position: relative;
-  cursor: pointer;
-}
-
-.burger__line--closed-menu::before {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: #000000;
-  position: absolute;
-  right: 0;
-  top: -8px;
-  z-index: 1;
-}
-
-.burger__line--closed-menu::after {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: #000000;
-  position: absolute;
-  right: 0;
-  bottom: -8px;
-  z-index: 1;
-}
-
-@media (min-width: $tablet-width) {
-  .burger__line,
-  .burger__line::before,
-  .burger__line::after {
+  @media (min-width: $tablet-width) {
     display: none;
   }
-}
-
-.burger__line--opened-menu {
-  display: block;
-  width: 25px;
-  height: 2px;
-  background-color: #000000;
-  font-size: 0;
-  color: transparent;
-  position: relative;
-  cursor: pointer;
-  transform: rotate(45deg);
-}
-
-.burger__line--opened-menu::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 25px;
-  height: 2px;
-  background-color: #000000;
-  transform: rotate(-90deg);
 }

@@ -1,16 +1,57 @@
 .header-logo {
-  margin-bottom: 27px;
+  margin: 0 auto;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 705px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 18px auto 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    justify-content: flex-start;
+    margin: 0 auto 82px;
+  }
 }
 
 .header-logo__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 56px;
   align-items: center;
   padding: 13px 20px 0;
   margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     width: 174px;
+    min-height: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    align-items: center;
+    vertical-align: center;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 202px;
+  }
+}
+
+.header-logo__wrapper:hover {
+  @media (min-width: $desktop-width) {
+    opacity: 80%;
+  }
+}
+
+.header-logo__wrapper:active {
+  @media (min-width: $desktop-width) {
+    opacity: 60%;
   }
 }
 
