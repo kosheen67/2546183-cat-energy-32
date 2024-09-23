@@ -5,6 +5,10 @@
   background-repeat: no-repeat;
   position: relative;
 
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../images/index-background-mobile@2x.jpg");
+  }
+
   @media (min-width: $tablet-width) {
     background-image: none;
     min-width: 768px;
