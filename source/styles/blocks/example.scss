@@ -152,8 +152,22 @@
 }
 
 .example__cost-wrapper {
+  @media (min-width: $mobile-width) {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -6px;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 175px;
+    flex-direction: column;
+  }
+
   @media (min-width: $desktop-width) {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 470px;
     margin-left: 100px;
@@ -167,16 +181,15 @@
   line-height: 20px;
   color: #000000;
   text-transform: uppercase;
-  margin: -8px 0 20px -25px;
+  margin: -8px 0 20px;
   text-align: center;
 
   @media (min-width: $tablet-width) {
     text-align: right;
     width: 174px;
-    margin-top: 3px;
-    margin-right: 0;
     font-size: 20px;
     line-height: 30px;
+    margin: 3px 0 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -195,12 +208,10 @@
 
   @media (min-width: $tablet-width) {
     width: 560px;
-    margin: 0 auto;
-    margin-left: 104px;
-    margin-top: -10px;
+    margin: -14px auto 0;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     margin: 59px auto 0 228px;
   }
 }

@@ -140,13 +140,14 @@
 
 .extra-goods__item:nth-child(2) .extra-goods__main {
   @media (min-width: $tablet-width) {
-    margin-right: 45px;
+    margin-right: 37px;
     min-width: 160px;
     margin-top: 16px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 0;
+    margin-right: 47px;
   }
 }
 
@@ -215,7 +216,7 @@
   width: 240px;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 35px;
+    margin-bottom: 26px;
     margin-left: 35px;
     display: block;
     width: 593px;
@@ -350,6 +351,25 @@
   }
 }
 
+@media (min-resolution: 2dppx), (min-width: $mobile-width) {
+  .extra-goods__offer {
+    background-image: url("../../images/catgift-mobile@2x.jpg");
+  }
+}
+
+@media (min-resolution: 2dppx), (min-width: $tablet-width) {
+  .extra-goods__offer {
+    background-image: url("../../images/catgift-tablet@2x.jpg");
+  }
+}
+
+@media (min-resolution: 2dppx), (min-width: $desktop-width) {
+  .extra-goods__offer {
+    background-image: url("../../images/catgift-desktop@2x.jpg");
+  }
+}
+
+
 .extra-goods__offer::before {
   content: "";
   width: 280px;
@@ -417,7 +437,6 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    // margin-top: 185px;
     text-align: center;
   }
 }

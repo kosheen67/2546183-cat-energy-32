@@ -7,10 +7,9 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
-    flex-direction: row;
     align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 145px 60px;
+    flex-flow: row wrap;
+    gap: 141px 60px;
     padding: 0 30px;
     border: none;
     margin-bottom: 89px;
