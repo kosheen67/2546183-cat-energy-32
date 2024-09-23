@@ -27,7 +27,6 @@
   margin-bottom: 41px;
   padding: 23px 20px 0;
   box-sizing: border-box;
-  // width: 320px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
@@ -45,13 +44,4 @@
     margin-top: -8px;
     padding: 0;
   }
-}
-
-.catalog-container__header::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: $basic-green;
-  box-shadow: -1px 0 0 5px pink;
 }
