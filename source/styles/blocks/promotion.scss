@@ -19,7 +19,6 @@
   background-color: $basic-green;
   position: absolute;
   top: 48px;
-  left: 286px;
 
   @media (min-width: $tablet-width) {
     left: 0;
@@ -66,8 +65,9 @@
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-  margin: 39px 0 16px -1px;
-  padding-right: 41px;
+  margin: 39px 0 16px -22px;
+  padding-right: 38px;
+  padding-left: 20px;
   background-color: #ffffff;
 
   @media (min-width: $tablet-width) {
