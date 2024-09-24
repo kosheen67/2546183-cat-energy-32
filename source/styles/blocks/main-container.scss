@@ -3,6 +3,7 @@
   flex-grow: 1;
 
   @media (min-width: $desktop-width) {
-    background-color: transparent;
+    width: 100%;
+    margin-top: 0;
   }
 }

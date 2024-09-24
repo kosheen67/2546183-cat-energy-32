@@ -7,12 +7,12 @@
   @media (min-width: $tablet-width) {
     justify-content: space-between;
     padding: 60px 70px;
-    width: 768px;
+    max-width: 768px;
     margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
-    width: 407px;
+    max-width: 407px;
     padding: 60px 78px 80px;
   }
 }
@@ -32,7 +32,6 @@
     line-height: 26px;
     color: #111111;
     width: 163px;
-    margin-top: 4px;
   }
 }
 
@@ -41,7 +40,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 5px;
   }
 }
 

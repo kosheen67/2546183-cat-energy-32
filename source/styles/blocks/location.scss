@@ -22,14 +22,13 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 628px;
+    max-width: 768px;
     padding: 60px 70px;
-    padding-left: 85px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    margin-left: 408px;
   }
 }
 
@@ -53,16 +52,17 @@
 .location__content-wrapper {
   @media (min-width: $tablet-width) {
     padding: 0;
-    width: 628px;
+    max-width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     background-color: #ffffff;
+    gap: 87px;
     position: absolute;
     top: 92px;
-    left: -297px;
+    left: 110px;
     z-index: 5;
-    width: 407px;
+    max-width: 565px;
     padding: 60px 79px;
   }
 }
@@ -128,13 +128,13 @@
 
   @media (min-width: $tablet-width) {
     top: 50%;
-    left: 46.5%;
+    left: 50.6%;
     transform: translate(-50%, -50%);
   }
 
   @media (min-width: $desktop-width) {
-    top: 47%;
-    left: 61%;
+    top: 46%;
+    left: 63%;
     transform: translate(-50%, -50%);
   }
 }
