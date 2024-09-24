@@ -1,6 +1,7 @@
 .card {
-  margin: 0;
   position: relative;
+  margin: 6px 0 0;
+  margin-left: -14px;
 
   &::before {
     content: "";
@@ -38,7 +39,7 @@
   min-height: 207px;
   background-image: url("../../icons/plus-mobile.svg");
   background-size: 30px 30px;
-  background-position: 145px 25px;
+  background-position: 149px 25px;
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
@@ -225,6 +226,7 @@
 .card__list-definiton {
   margin: 0;
   text-align: right;
+  margin-right: 5px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -262,7 +264,7 @@
 }
 
 .card__more-products-wrapper {
-  margin: 58px 0 26px;
+  margin: -4px 0 26px;
 
   @media (min-width: $tablet-width) {
     width: 170px;
@@ -303,8 +305,7 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
-  margin: 0;
-  margin-bottom: 29px;
+  margin: 0 0 -7px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -328,8 +329,10 @@
   color: #444444;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px 95px;
+  padding: 10px 20px;
   display: block;
+  width: 240px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     padding: 10px 80px;
