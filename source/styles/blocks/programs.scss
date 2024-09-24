@@ -30,22 +30,23 @@
     height: 694px;
     top: -224px;
     left: 50%;
-    background:
-      linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px),
+    background: linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px),
       image-set(
         url("../../images/index-background-desktop@1x.jpg") 1x,
-        url("../../images/index-background-desktop@2x.jpg") 2x);
+        url("../../images/index-background-desktop@2x.jpg") 2x
+      );
     background-size: cover, 1040px 694px;
   }
 }
 
 .programs__wrapper {
   width: 320px;
+  padding: 0 20px;
   margin: 0 auto;
-  background-image:
-    image-set(
-      url("../../images/index-background-mobile@1x.jpg") 1x,
-      url("../../images/index-background-mobile@2x.jpg") 2x);
+  background-image: image-set(
+    url("../../images/index-background-mobile@1x.jpg") 1x,
+    url("../../images/index-background-mobile@2x.jpg") 2x
+  );
   background-repeat: no-repeat;
   position: relative;
 
@@ -68,9 +69,8 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
-  margin: 0 auto 25px;
-  padding: 27px 20px 0 8px;
-  min-width: 250px;
+  margin: 0;
+  padding: 26px 0;
   text-align: center;
   position: relative;
   z-index: 3;
@@ -99,7 +99,6 @@
   line-height: 14px;
   text-transform: uppercase;
   margin: 0 auto 29px;
-  margin-left: -17px;
   text-align: center;
   position: relative;
   z-index: 3;
@@ -120,8 +119,7 @@
 
 .programs__image {
   display: block;
-  margin: 0 auto 3px;
-  margin-left: 13px;
+  margin: 0 auto 4px;
   position: relative;
   z-index: 4;
 
@@ -151,9 +149,7 @@
   text-decoration: none;
   padding: 10px 20px;
   display: block;
-  margin: 0 auto 20px;
-  margin-left: 13px;
-  width: 240px;
+  // width: 100%;
 
   @media (min-width: $tablet-width) {
     width: 192px;

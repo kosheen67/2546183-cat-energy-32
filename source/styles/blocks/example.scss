@@ -1,11 +1,9 @@
 .example {
   @media (min-width: $mobile-width) {
     background-color: #eaeaea;
-    padding: 25px 0 0;
+    padding: 25px 0 36px;
     width: 100%;
     min-height: 633px;
-    margin: -5px 0 0;
-    margin-left: -28px;
   }
 
   @media (min-width: $tablet-width) {
@@ -25,11 +23,9 @@
 }
 
 .example__block-wrapper {
-  @media (min-width: $mobile-width) {
-    width: 280px;
-    margin: 0 auto;
-    position: relative;
-  }
+  max-width: 320px;
+  margin: 0 auto;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -149,7 +145,7 @@
 }
 
 .example__list {
-  margin: 0 0 40px;
+  margin: 0 0 32px;
 
   @media (min-width: $desktop-width) {
     margin-bottom: 55px;
@@ -157,11 +153,10 @@
 }
 
 .example__cost-wrapper {
-  width: 270px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 0 25px;
+  margin: 0 0 22px;
 
   @media (min-width: $tablet-width) {
     width: 175px;
@@ -184,8 +179,8 @@
   line-height: 20px;
   color: #000000;
   text-transform: uppercase;
-  margin: -8px 0 20px;
   text-align: center;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     text-align: right;
@@ -252,7 +247,6 @@
   height: 256px;
   border-radius: 2px;
   background-color: #666666;
-  margin-left: 3px;
 
   @media (min-width: $tablet-width) {
     height: 512px;
@@ -262,7 +256,7 @@
 .example__slider-control {
   position: absolute;
   top: 108px;
-  left: -20px;
+  left: -18px;
 
   @media (min-width: $tablet-width) {
     position: absolute;
@@ -281,11 +275,6 @@
 
 .example__slider-control-block {
   width: 5px;
-  margin-left: -9px;
-
-  @media (min-width: $tablet-width) {
-    margin-left: -5px;
-  }
 }
 
 .example__slider-control-block:hover {
@@ -302,7 +291,6 @@
     fill: #68b738;
   }
 }
-
 
 .example__slider-control-block:active {
   .example__slider-control-wrapper {

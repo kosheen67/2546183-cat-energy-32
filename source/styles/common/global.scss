@@ -1,4 +1,8 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
 body {
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: $main-font;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }

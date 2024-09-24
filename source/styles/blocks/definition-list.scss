@@ -1,9 +1,9 @@
 .definition-list {
-  width: 271px;
   display: flex;
   justify-content: space-between;
   gap: 32px;
   margin-right: 0;
+  padding: 0 20px;
 
   @media (min-width: $tablet-width) {
     gap: 43px;
@@ -24,7 +24,6 @@
   border-radius: 5px;
   text-align: center;
   position: relative;
-  margin-left: 20px;
 
   @media (min-width: $tablet-width) {
     min-width: 162px;

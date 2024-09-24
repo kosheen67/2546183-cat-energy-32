@@ -1,8 +1,8 @@
 .features {
   background-color: #ffffff;
-  padding: 23px 20px 49px;
-  width: 280px;
+  padding: 22px 20px 48px;
   margin: 0 auto;
+  max-width: 320px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -29,7 +29,6 @@
   line-height: 40px;
   color: #000000;
   margin: 0 0 43px;
-  margin-left: -8px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;

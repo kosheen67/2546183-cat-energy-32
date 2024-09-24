@@ -1,8 +1,8 @@
 .content-wrapper {
   display: flex;
-  width: 280px;
   padding: 26px 20px;
   margin: 0 auto;
+  max-width: 320px;
 
   @media (min-width: $tablet-width) {
     justify-content: space-between;
@@ -36,7 +36,6 @@
   }
 }
 
-
 .content-wrapper__address-block {
   @media (min-width: $tablet-width) {
     display: flex;
@@ -45,7 +44,6 @@
     margin-top: 5px;
   }
 }
-
 
 .content-wrapper__address {
   font-family: "Lato", "Arial", sans-serif;
