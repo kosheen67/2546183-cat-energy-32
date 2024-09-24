@@ -1,4 +1,4 @@
-.header-logo {
+.header {
   margin: 0 auto;
   width: 320px;
   padding-top: 0;
@@ -23,7 +23,7 @@
   }
 }
 
-.header-logo__wrapper {
+.header__logo-wrapper {
   display: flex;
   justify-content: flex-start;
   gap: 56px;
@@ -48,19 +48,19 @@
   }
 }
 
-.header-logo__wrapper:hover {
+.header__logo-wrapper:hover {
   @media (min-width: $desktop-width) {
     opacity: 80%;
   }
 }
 
-.header-logo__wrapper:active {
+.header__logo-wrapper:active {
   @media (min-width: $desktop-width) {
     opacity: 60%;
   }
 }
 
-.header-logo__link {
+.header__logo-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
