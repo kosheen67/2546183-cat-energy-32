@@ -9,7 +9,8 @@
     width: 100vw;
     background-color: #ebebeb;
     height: 1px;
-    box-shadow: 100vw 0px 0px 0px #ebebeb;}
+    box-shadow: 100vw 0 0 0 #ebebeb;
+  }
 
   @media (min-width: $tablet-width) {
     border: none;
@@ -34,7 +35,7 @@
 }
 
 .card:last-child {
-  height: 207px;
+  min-height: 207px;
   background-image: url("../../icons/plus-mobile.svg");
   background-size: 30px 30px;
   background-position: 145px 25px;
