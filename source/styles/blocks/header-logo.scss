@@ -1,7 +1,7 @@
 .header-logo {
   margin: 0 auto;
   width: 320px;
-  padding-top: 0px;
+  padding-top: 0;
   margin-right: 17px;
 
   @media (min-width: $tablet-width) {
@@ -12,6 +12,7 @@
     align-items: flex-end;
     padding-top: 25px;
     margin: 0 auto 65px;
+    margin-left: 31px;
   }
 
   @media (min-width: $desktop-width) {
