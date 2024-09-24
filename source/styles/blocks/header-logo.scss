@@ -1,6 +1,7 @@
 .header-logo {
   margin: 0 auto;
   width: 320px;
+  padding-top: 13px;
 
   @media (min-width: $tablet-width) {
     width: 705px;
@@ -8,13 +9,15 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 18px auto 65px;
+    padding-top: 25px;
+    margin: 0 auto 65px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1220px;
     justify-content: flex-start;
     margin: 0 auto 82px;
+    padding-top: 25px;
   }
 }
 
