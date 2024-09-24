@@ -73,7 +73,7 @@
 
   @media (min-width: $desktop-width) {
     width: 205px;
-    height: 430px;
+    min-height: 430px;
   }
 }
 
@@ -329,6 +329,7 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 95px;
+  display: block;
 
   @media (min-width: $tablet-width) {
     padding: 10px 80px;
