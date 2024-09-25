@@ -16,5 +16,8 @@
 			"label": "Недавние проблемы",
 			"query": "state:open repo:${owner}/${repository} sort:updated-desc"
 		}
+	],
+	"githubPullRequests.ignoredPullRequestBranches": [
+		"master"
 	]
 }
