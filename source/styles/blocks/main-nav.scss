@@ -26,12 +26,10 @@
 
   &--no-js .main-nav__list {
     display: block;
-
     @media (min-width: $tablet-width) {
       display: flex;
     }
   }
-
   &--opened {
     position: absolute;
     top: 98%;

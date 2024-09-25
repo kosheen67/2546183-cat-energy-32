@@ -259,6 +259,9 @@
 .extra-goods__term {
   background-color: #ffffff;
 
+  @media (min-width: $tablet-width) {
+  }
+
   @media (min-width: $desktop-width) {
     width: 145px;
   }

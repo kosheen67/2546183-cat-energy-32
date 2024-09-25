@@ -40,7 +40,7 @@
     background-size: 80px 80px;
     background-position: 0 50px;
 
-    &::after {
+    &:after {
       content: counter(increment);
       font-weight: 400;
       font-family: $secondary-font;
