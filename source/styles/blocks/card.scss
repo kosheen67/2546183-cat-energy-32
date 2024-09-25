@@ -139,7 +139,7 @@
 }
 
 .card__content-title {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -164,7 +164,7 @@
 
 .card__list {
   width: 140px;
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -286,7 +286,7 @@
 }
 
 .card__more-products-header {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -307,7 +307,7 @@
 }
 
 .card__more-products-content {
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -328,7 +328,7 @@
 
 .card__more-products-link {
   background-color: $basic-grey;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;

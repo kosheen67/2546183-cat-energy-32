@@ -3,12 +3,9 @@
   width: 100%;
   margin-top: -28px;
 
-  @media (min-width: $tablet-width) {
-    margin-bottom: 45px;
-  }
-
   @media (min-width: $desktop-width) {
     margin: 0 auto;
+    min-height: 551px;
   }
 }
 
@@ -32,7 +29,7 @@
     display: block;
     width: 50%;
     height: 694px;
-    top: -224px;
+    top: -144px;
     left: 50%;
     background: linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px),
       image-set(
@@ -40,6 +37,8 @@
         url("../../images/index-background-desktop@2x.jpg") 2x
       );
     background-size: cover, 1040px 694px;
+    background-position: left, left bottom;
+    background-repeat: no-repeat, no-repeat;
   }
 }
 
@@ -64,12 +63,13 @@
 
   @media (min-width: $desktop-width) {
     max-width: 1440px;
+    padding: 0 110px;
   }
 }
 
 .programs__header {
   color: #ffffff;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -90,21 +90,26 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 134px;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    width: 500px;
   }
 }
 
 .programs__slogan {
   color: #ffffff;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-transform: uppercase;
-  margin: 0 auto 29px;
   text-align: center;
   position: relative;
   z-index: 3;
+  margin: 0;
+  margin-bottom: 30px;
 
   @media (min-width: $tablet-width) {
     color: #000000;
@@ -116,7 +121,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 135px;
+    padding-left: 80px;
+    margin: 0;
   }
 }
 
@@ -129,20 +135,23 @@
   @media (min-width: $tablet-width) {
     width: 709px;
     height: 609px;
-    margin-top: -30px;
+    margin-top: -28px;
   }
 
   @media (min-width: $desktop-width) {
     width: 552px;
     height: 499px;
-    margin: -310px 501px;
+    position: absolute;
+    left: 557px;
+    top: 0;
+    margin: 0;
   }
 }
 
 .programs__link {
   background-color: $basic-green;
   color: #ffffff;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -165,9 +174,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    left: 0;
-    margin-left: 135px;
-    margin-top: 6px;
+    left: 190px;
+    top: 313px;
   }
 }
 

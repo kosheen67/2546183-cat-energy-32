@@ -40,7 +40,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
+    width: 1440px;
   }
 }
 
@@ -60,7 +60,7 @@
 }
 
 .promotion__header {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -84,13 +84,13 @@
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
-    margin: -18px 0 0 -101px;
+    margin: -18px 0 0 -35px;
     padding: 0 40px;
   }
 }
 
 .promotion__content {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -112,7 +112,7 @@
     margin: 0 auto;
     margin-top: 72px;
     margin-bottom: 24px;
-    margin-left: -61px;
+    // margin-left: -61px;
   }
 }
 

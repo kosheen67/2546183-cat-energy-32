@@ -9,21 +9,22 @@
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 45px;
     max-width: 768px;
-    margin-left: 0;
+    margin: 0 auto;
     padding-bottom: 9px;
+    padding-top: 45px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
     padding: 0;
     border-bottom: none;
     margin-bottom: 0;
-    margin-left: 110px;
+    margin: 0 auto;
+    max-width: 1440px;
   }
 }
 
 .features__header {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
@@ -41,5 +42,6 @@
 
   @media (min-width: $desktop-width) {
     margin: -4px 0 22px;
+    padding-left: 110px;
   }
 }

@@ -1,6 +1,6 @@
 .content-wrapper {
   display: flex;
-  padding: 23px 20px;
+  padding: 23px 20px 26px;
   margin: 0 auto;
   max-width: 320px;
 
@@ -18,7 +18,7 @@
 }
 
 .content-wrapper__header {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -44,7 +44,7 @@
 }
 
 .content-wrapper__address {
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;

@@ -5,7 +5,7 @@
 .button--primary {
   display: block;
   background-color: $basic-green;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -18,7 +18,9 @@
   text-align: center;
 
   .card & {
-    margin: 0 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 

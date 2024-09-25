@@ -11,7 +11,6 @@
     width: 752px;
     margin: 0 auto;
     margin-bottom: 104px;
-    margin-left: 174px;
   }
 }
 
@@ -22,7 +21,7 @@
   padding: 13px;
   margin: 0 20px 16px;
   font-weight: 400;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-size: 20px;
   line-height: 30px;
   color: #444444;
@@ -47,7 +46,7 @@
 }
 
 .promotion-form__input[placeholder] {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;

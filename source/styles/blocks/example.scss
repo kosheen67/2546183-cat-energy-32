@@ -24,7 +24,6 @@
 
   @media (min-width: $tablet-width) {
     max-width: 768px;
-    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -53,7 +52,7 @@
 }
 
 .example__header {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
@@ -168,7 +167,7 @@
 }
 
 .example__cost {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -231,7 +230,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-image: linear-gradient(#ffffff 0% 26%, #f2f2f2 22% 100%);
+    background: none;
   }
 }
 

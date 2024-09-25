@@ -2,15 +2,14 @@
   max-width: 320px;
   margin: 0 auto;
 
-
   @media (min-width: $tablet-width) {
     max-width: 768px;
   }
 
   @media (min-width: $desktop-width) {
+    max-width: 1220px;
     width: 1220px;
     margin-bottom: 23px;
-    margin-left: 124px;
   }
 }
 

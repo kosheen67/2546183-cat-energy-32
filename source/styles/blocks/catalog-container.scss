@@ -18,7 +18,7 @@
 }
 
 .catalog-container__header {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -33,11 +33,14 @@
     margin: 0 auto;
     margin-bottom: 165px;
     padding: 0;
+    padding-top: 40px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1220px;
     padding: 0;
-    margin: -12px auto 165px 110px;
+    margin: 0 auto;
+    padding: 0 0 165px;
+    padding-top: 55px;
   }
 }
