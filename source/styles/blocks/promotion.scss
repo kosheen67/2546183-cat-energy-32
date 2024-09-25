@@ -40,7 +40,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    width: 1220px;
   }
 }
 
@@ -84,7 +84,7 @@
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
-    margin: -18px 0 0 71px;
+    margin: -18px 0 0 -101px;
     padding: 0 40px;
   }
 }
@@ -108,9 +108,11 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1360px;
+    width: 1220px;
+    margin: 0 auto;
     margin-top: 72px;
     margin-bottom: 24px;
+    margin-left: -61px;
   }
 }
 
