@@ -16,7 +16,11 @@
   content: "";
   width: 100vw;
   height: 303px;
-  background-image: linear-gradient(90deg, #62a53b, #68b738d9, #62a53b);
+  background: linear-gradient(
+    90deg,
+    $mob-gradient-green1,
+    $mob-gradient-green2
+  );
   position: absolute;
   z-index: 2;
 
