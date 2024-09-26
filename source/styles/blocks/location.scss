@@ -28,6 +28,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
+    max-width: 1220px;
   }
 }
 
@@ -59,7 +60,6 @@
     gap: 87px;
     position: absolute;
     top: 92px;
-    left: 110px;
     z-index: 5;
     max-width: 565px;
     padding: 60px 79px;
@@ -132,8 +132,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: 45%;
-    left: 61.8%;
+    top: 43%;
+    left: 66%;
     transform: translate(-50%, -50%);
   }
 }

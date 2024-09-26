@@ -29,14 +29,14 @@
 
   @media (min-width: $tablet-width) {
     gap: 30px;
-    margin-top: 0;
     padding: 0;
     max-width: 768px;
     margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
-    flex-direction: row;
+    display: flex;
+    flex-flow: row wrap;
     gap: 80px;
     max-width: 1440px;
   }
