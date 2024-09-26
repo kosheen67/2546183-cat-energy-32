@@ -1,8 +1,8 @@
 const navMain = document.querySelector('.main-nav');
-const navToggle = document.querySelector('.main-nav__toggle');
+const navToggle = document.querySelector('.header__toggle');
 
 navMain.classList.remove('main-nav--no-js');
-navToggle.classList.remove('main-nav__toggle--no-js');
+navToggle.classList.remove('header__toggle--no-js');
 
 navToggle.addEventListener('click', () => {
   if (!navMain.classList.contains('main-nav--opened')) {
@@ -11,6 +11,20 @@ navToggle.addEventListener('click', () => {
     navMain.classList.remove('main-nav--opened');
   }
 });
+
+// const navMain = document.querySelector('.main-nav');
+// const navToggle = document.querySelector('.main-nav__toggle');
+
+// navMain.classList.remove('main-nav--no-js');
+// navToggle.classList.remove('main-nav__toggle--no-js');
+
+// navToggle.addEventListener('click', () => {
+//   if (!navMain.classList.contains('main-nav--opened')) {
+//     navMain.classList.add('main-nav--opened');
+//   } else {
+//     navMain.classList.remove('main-nav--opened');
+//   }
+// });
 
 /* КАРТА */
 

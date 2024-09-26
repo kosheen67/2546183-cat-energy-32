@@ -86,6 +86,34 @@
   }
 }
 
+.main-nav--opened .header__toggle {
+  top: -36px;
+  left: auto;
+  right: 16px;
+  background-color: transparent;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 2px;
+    background-color: #000000;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+    box-shadow: none;
+  }
+}
+
 .main-nav__wrapper {
   @media (min-width: $desktop-width) {
     margin-left: 0;

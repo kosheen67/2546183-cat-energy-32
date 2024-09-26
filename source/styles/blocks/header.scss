@@ -83,3 +83,33 @@
     margin-left: 0;
   }
 }
+
+.header__toggle {
+  cursor: pointer;
+  border: none;
+  z-index: 2;
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 2px;
+    background-color: #000000;
+    box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+  }
+
+  &--no-js {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
