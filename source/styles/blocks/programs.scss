@@ -13,11 +13,12 @@
   content: "";
   width: 100vw;
   height: 303px;
-  background: linear-gradient(
-    90deg,
-    $mob-gradient-green1,
-    $mob-gradient-green2
-  );
+  background:
+    linear-gradient(
+      90deg,
+      $mob-gradient-green1,
+      $mob-gradient-green2
+    );
   position: absolute;
   z-index: 2;
 
@@ -31,7 +32,8 @@
     height: 694px;
     top: -144px;
     left: 50%;
-    background: linear-gradient(90deg, #68b738d9 1036px, #62a53b 1040px),
+    background:
+      linear-gradient(90deg, $desktop-gradient-green1 1036px, #62a53b 1040px),
       image-set(
         url("../../images/index-background-desktop@1x.jpg") 1x,
         url("../../images/index-background-desktop@2x.jpg") 2x
@@ -46,10 +48,11 @@
   max-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
-  background-image: image-set(
-    url("../../images/index-background-mobile@1x.jpg") 1x,
-    url("../../images/index-background-mobile@2x.jpg") 2x
-  );
+  background-image:
+    image-set(
+      url("../../images/index-background-mobile@1x.jpg") 1x,
+      url("../../images/index-background-mobile@2x.jpg") 2x
+    );
   background-repeat: no-repeat;
   position: relative;
 

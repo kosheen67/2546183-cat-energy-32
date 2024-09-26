@@ -3,6 +3,8 @@ body {
   font-family: $main-font;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
